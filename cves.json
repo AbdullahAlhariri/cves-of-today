@@ -1542,5 +1542,781 @@
       "severity": "MEDIUM",
       "score": 4.3
     }
+  ],
+  "2025-10-02": [
+    {
+      "id": "CVE-2025-61588",
+      "description": "RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture. In versions 2.0.2 and below of risc0-zkvm-platform, when the zkVM guest calls sys_read, the host is able to use a crafted response to write to an arbitrary memory location in the guest. This capability can be leveraged to execute arbitrary code within the guest. As sys_read is the mechanism by which input is requested by the guest, all guest programs built with the affected versions are vulnerable. This critically compromises the soundness guarantees of the guest program. Other affected packages include risc0-aggregation versions below 0.9,  risc0-zkos-v1compat below 2.1.0, risc0-zkvm versions between 3.0.0-rc.1 and 3.0.1. This issue has been fixed in the following versions: risc0-zkvm-platform 2.1.0, risc0-zkos-v1compat 2.1.0, risc0-aggregation 0.9, and risc0-zkvm 2.3.2 and 3.0.3.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61849",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61850",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61851",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61852",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61853",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61854",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61855",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-11020",
+      "description": "An attacker can obtain server information using Path Traversal vulnerability to conduct SQL Injection, which possibly exploits Unrestricted Upload of File with Dangerous Type vulnerability in MarkAny SafePC Enterprise on Windows, Linux.This issue affects SafePC Enterprise: V7.0.* (V7.0.YYYY.MM.DD) before V7.0.1, and V5.*.*.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11182",
+      "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Download of Code Without Integrity Check vulnerability in GTONE ChangeFlow allows Path Traversal.This issue affects ChangeFlow: All versions to v9.0.1.1.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-11221",
+      "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with Dangerous Type vulnerability in GTONE ChangeFlow allows Path Traversal, Accessing Functionality Not Properly Constrained by ACLs.This issue affects ChangeFlow: from All versions through v9.0.1.1.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-58775",
+      "description": "KV STUDIO and VT5-WX15/WX12 contain a stack-based buffer overflow vulnerability. If the product uses a specially crafted file, arbitrary code may be executed on the affected product.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-58776",
+      "description": "KV Studio versions 12.23 and prior contain a stack-based buffer overflow vulnerability. If the product uses a specially crafted file, arbitrary code may be executed on the affected product.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-58777",
+      "description": "VT Studio versions 8.53 and prior contain an access of uninitialized pointer vulnerability. If the product uses a specially crafted file, arbitrary code may be executed on the affected product.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-61690",
+      "description": "KV STUDIO versions 12.23 and prior contain a buffer underflow vulnerability. If the product uses a specially crafted file, arbitrary code may be executed on the affected product.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-61691",
+      "description": "VT STUDIO versions 8.53 and prior contain an out-of-bounds read vulnerability. If the product uses a specially crafted file, arbitrary code may be executed on the affected product.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-61692",
+      "description": "VT STUDIO versions 8.53 and prior contain a use after free vulnerability. If the product uses a specially crafted file, arbitrary code may be executed on the affected product.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-9587",
+      "description": "The CTL Behance Importer Lite WordPress plugin through 1.0 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection.",
+      "severity": "HIGH",
+      "score": 8.6
+    },
+    {
+      "id": "CVE-2025-9697",
+      "description": "The Ajax WooSearch WordPress plugin through 1.0.0 does not properly sanitise and escape a parameter before using it in a SQL statement via an AJAX action available to unauthenticated users, leading to a SQL injection",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-40645",
+      "description": "Exposure of sensitive information in Viday. This vulnerability could allow an unauthenticated attacker to obtain sensitive information about customers by sending an HTTP GET request to \u201c/api/reserva/web/clients\u201d using the \u201cphone\u201d parameter.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-40646",
+      "description": "Stored Cross-Site Scripting (XSS) vulnerability in Energy CRM v2025 by Status Tracker Ltd, consisting of a stored XSS due to lack of proper validation of user input by sending a POST request to \u201c/crm/create_job_submit.php\u201d, using the \u201cJobCreatedBy\u201d parameter. This vulnerability could allow a remote user to send a specially crafted query to an authenticated user and steal their cookie session details.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-54286",
+      "description": "Cross-Site Request Forgery (CSRF) in LXD-UI in Canonical LXD versions >= 5.0 on Linux allows an attacker to create and start container instances without user consent via crafted HTML form submissions exploiting client certificate authentication.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-54287",
+      "description": "Template Injection in instance snapshot creation component in Canonical LXD (>= 4.0) allows an attacker with instance configuration \npermissions to read arbitrary files on the host system via specially crafted snapshot pattern templates using the Pongo2 template engine.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-54288",
+      "description": "Information Spoofing in devLXD Server in Canonical LXD versions 4.0 and above on Linux container platforms allows attackers with root privileges within any container to impersonate other containers and obtain their metadata, configuration, and device information via spoofed process names in the command line.",
+      "severity": "MEDIUM",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2025-54289",
+      "description": "Privilege Escalation in operations API in Canonical LXD <6.5 on multiple platforms allows attacker with read permissions to hijack terminal or console sessions and execute arbitrary commands via WebSocket connection hijacking format",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-54290",
+      "description": "Information disclosure in image export API in Canonical LXD before 6.5 and 5.21.4 on Linux allows network attackers to determine project existence without authentication via crafted requests using wildcard fingerprints.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-54291",
+      "description": "Information disclosure in images API in Canonical LXD before 6.5 and 5.21.4 on all platforms allows unauthenticated remote attackers to determine project existence via differing HTTP status code responses.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-54292",
+      "description": "Path traversal in Canonical LXD LXD-UI versions before 6.5 and 5.21.4 on all platforms allows remote authenticated attackers to access or modify unintended resources via crafted resource names embedded in URL paths.",
+      "severity": "MEDIUM",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2025-54468",
+      "description": "A vulnerability has been identified within Rancher Manager whereby `Impersonate-Extra-*` headers are being sent to an external entity, for example `amazonaws.com`, via the `/meta/proxy` Rancher endpoint. These headers may contain identifiable and/or sensitive information e.g. email addresses.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-61733",
+      "description": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Apache Kylin.\n\nThis issue affects Apache Kylin: from 4.0.0 through 5.0.2.\n\nUsers are recommended to upgrade to version 5.0.3, which fixes the issue.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-61734",
+      "description": "Files or Directories Accessible to External Parties vulnerability in Apache Kylin.\n You are fine as long as the Kylin's system and project admin access is well protected.\n\nThis issue affects Apache Kylin: from 4.0.0 through 5.0.2.\n\nUsers are recommended to upgrade to version 5.0.3, which fixes the issue.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-61735",
+      "description": "Server-Side Request Forgery (SSRF) vulnerability in Apache Kylin.\n\nThis issue affects Apache Kylin: from 4.0.0 through 5.0.2.\u00a0You are fine as long as the Kylin's system and project admin access is well protected.\n\nUsers are recommended to upgrade to version 5.0.3, which fixes the issue.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-40989",
+      "description": "Stored Cross Site Scripting vulnerability in Ekushey CRM v5.0 by Creativeitem, due to lack of proper validation of user inputs via the \"/ekushey/index.php/client/project_message/add/xxx\", affecting to \"message\" parameter via POST. This vulnerability could allow a remote attacker to send a specially crafted query to an authenticated user and steal his/her cookie session details.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-40990",
+      "description": "Stored Cross Site Scripting vulnerability in Ekushey CRM v5.0 by Creativeitem, due to lack of proper validation of user inputs via the \"/ekushey/index.php/client/project_bug/create/xxx\", affecting to \"title\" and \"description\" parameters via POST. This vulnerability could allow a remote attacker to send a specially crafted query to an authenticated user and steal his/her cookie session details.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-40991",
+      "description": "Stored Cross Site Scripting vulnerability in Ekushey CRM v5.0 by Creativeitem, due to lack of proper validation of user inputs via the \"/ekushey/index.php/client/project_file/upload/xxxx\", affecting to \"description\" parameter via POST. This vulnerability could allow a remote attacker to send a specially crafted query to an authenticated user and steal his/her cookie session details.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-40992",
+      "description": "Stored XSS vulnerability in Creativeitem Sociopro due to lack of proper validation of user inputs via the endpoint '/sociopro/profile/update_profile', affecting to 'name' parameter via POST. This vulnerability could allow a remote user to send a specially crafted query to an authenticated user and steal his/her cookie session details.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-54293",
+      "description": "Path Traversal in the log file retrieval function in Canonical LXD 5.0 LTS on Linux allows authenticated remote attackers to read arbitrary files on the host system via crafted log file names or symbolic links.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-58260",
+      "description": "A vulnerability has been identified within Rancher Manager where a missing server-side validation on the `.username` field in Rancher can allow users with update permissions on other User resources to cause denial of access for targeted accounts.",
+      "severity": "HIGH",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2024-58267",
+      "description": "A vulnerability has been identified within Rancher Manager whereby the SAML authentication from the Rancher CLI  tool is vulnerable to phishing attacks. The custom authentication protocol for SAML-based providers can be abused to steal Rancher\u2019s authentication tokens.",
+      "severity": "HIGH",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2025-41064",
+      "description": "Incorrect authentication vulnerability in OpenSIAC, which could allow an attacker to impersonate a person using Cl@ve as an authentication method.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-0642",
+      "description": "Use of Hard-coded Credentials, Authorization Bypass Through User-Controlled Key vulnerability in PosCube Hardware Software and Consulting Ltd. Co. Assist allows Excavation, Authentication Bypass.This issue affects Assist: through 10.02.2025.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-11239",
+      "description": "Potentially sensitive information in jobs on KNIME Business Hub prior to 1.16.0 were visible to all members of the user's team. Starting with KNIME Business Hub 1.16.0 only metadata of jobs is shown to team members. Only the creator of a job can see all information including in- and output data (if present).",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-11240",
+      "description": "An open redirect vulnerability existed in KNIME Business Hub prior to version 1.16.0. An unauthenticated remote attacker could craft a link to a legitimate KNIME Business Hub installation which, when opened by the user, redirects the user to a page of the attackers choice. This might open the possibility for fishing or other similar attacks. The problem has been fixed in KNIME Business Hub 1.16.0.",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2025-22862",
+      "description": "An\u00a0Authentication Bypass Using an Alternate Path or Channel vulnerability [CWE-288] in FortiOS 7.4.0 through 7.4.7, 7.2.0 through 7.2.11, 7.0.6 and above; and FortiProxy 7.6.0 through 7.6.2, 7.4.0 through 7.4.8, 7.2 all versions, 7.0.5 and above\u00a0may allow an authenticated attacker to elevate their privileges via triggering a malicious Webhook action in the Automation Stitch component.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-41010",
+      "description": "Incorrect Cross-Origin Resource Sharing (CORS) configuration in Hiberus Sintra. Cross-Origin Resource Sharing (CORS) allows browsers to make cross-domain requests in a controlled manner. This request has an \u201cOrigin\u201d header that identifies the domain making the initial request and defines the protocol between a browser and a server to see if the request is allowed. An attacker can exploit this and potentially perform privileged actions and access confidential information when Access-Control-Allow-Credentials is enabled.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2023-28760",
+      "description": "TP-Link AX1800 WiFi 6 Router (Archer AX21) devices allow unauthenticated attackers (on the LAN) to execute arbitrary code as root via the db_dir field to minidlnad. The attacker obtains the ability to modify files.db, and that can be used to reach a stack-based buffer overflow in minidlna-1.1.2/upnpsoap.c. Exploitation requires that a USB flash drive is connected to the router (customers often do this to make a \\\\192.168.0.1 share available on their local network).",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-53881",
+      "description": "A UNIX Symbolic Link (Symlink) Following vulnerability in logrotate config in the exim package allowed privilege escalation from mail user/group to root.This issue affects Tumbleweed: from ? before 4.98.2-lp156.248.1.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-56379",
+      "description": "A stored cross-site scripting (XSS) vulnerability in the blog post feature of ERPNEXT v15.67.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the content field.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-56380",
+      "description": "Frappe Framework v15.72.4 was discovered to contain a SQL injection vulnerability via the fieldname parameter in the frappe.client.get_value API endpoint and a crafted script to the fieldname parameter",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-56381",
+      "description": "ERPNEXT v15.67.0 was discovered to contain multiple SQL injection vulnerabilities in the /api/method/frappe.desk.reportview.get endpoint via the order_by and group_by parameters.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-59735",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a\u00a0'm' parameter in '/clt/LOGINFRM.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59736",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a\u00a0'm' parameter in '/clt/LOGINFRM_DJO.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59737",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_LXA.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59738",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_BET.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59739",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_original.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59740",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/clt/LOGINFRM_CAT.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-57443",
+      "description": "FrostWire 6.14.0-build-326 for macOS contains permissive entitlements (allow-dyld-environment-variables, disable-library-validation) that allow unprivileged local attackers to inject code into the FrostWire process via the DYLD_INSERT_LIBRARIES environment variable. This allows escalated privileges to arbitrary TCC-approved directories.",
+      "severity": "MEDIUM",
+      "score": 5.1
+    },
+    {
+      "id": "CVE-2025-59741",
+      "description": "Operating system command injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute operating system commands on the server by sending a POST request. The relationship between parameter and assigned identifier is a 'm' parameter in '/CLT/LOGINERRORFRM.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59742",
+      "description": "SQL injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability could allow an attacker to retrieve, create, update, and delete databases by sending a POST request. The relationship between parameter and assigned identifier is a\u00a0'USRMAIL' parameter in'/inc/login/TRACK_REQUESTFRMSQL.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59743",
+      "description": "SQL injection vulnerability in AndSoft's e-TMS v25.03. This vulnerability could allow an attacker to retrieve, create, update, and delete databases by sending a POST request. The relationship between parameter and assigned identifier is a\u00a0'SessionID' cookie  in '/inc/connect/CONNECTION.ASP'.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59744",
+      "description": "Path traversal vulnerability in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to access files only within the web root using the \u201cdocurl\u201d parameter in \u201c/lib/asp/DOCSAVEASASP.ASP\u201d.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-59745",
+      "description": "Vulnerability in the cryptographic algorithm of AndSoft's e-TMS v25.03, which uses MD5 to encrypt passwords. MD5 is a cryptographically vulnerable hash algorithm and is no longer considered secure for storing or transmitting passwords. It is vulnerable to collision attacks and can be easily cracked with modern hardware, exposing user credentials to potential risks.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-59746",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'm' parameter in '/lib/asp/alert.asp'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59747",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is 'l' parameter in '/clt/resetPassword.asp'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59748",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is 'l' and 'reset' parameters in '/clt/changepassword.asp'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59749",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is 'l' parameter in '/clt/TRACK_REQUEST.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59750",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59751",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_DJO.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59752",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_LXA.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59753",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_BET.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59754",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_original.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59755",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_CAT.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59756",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'SuppConn in /clt/LOGINFRM_CON.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59757",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_CATOLD.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59758",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_CYLOG.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59759",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_DELCROIX.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59760",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_DHL.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59761",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_DLG.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59762",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_DLG.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59763",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_EK.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59764",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_FCC.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59765",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_LF.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59766",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_LT.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59767",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_LVE.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59768",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_MNG.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59769",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_MOL.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59770",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_MON.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59771",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_MRK.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59772",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_SIL.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59773",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_TP.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-59774",
+      "description": "Cross-site scripting (XSS) vulnerability reflected in AndSoft's e-TMS v25.03. This vulnerability allows an attacker to execute JavaScript code in the victim's browser by sending them a malicious URL.\u00a0The relationship between parameter and assigned identifier is\u00a0'l, demo, demo2, TNTLOGIN, UO and SuppConn' parameters in\u00a0'/clt/LOGINFRM_VON.ASP'.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60782",
+      "description": "PHP Education Manager v1.0 is vulnerable to Cross Site Scripting (XSS) stored Cross-Site Scripting (XSS) vulnerability in the topics management module (topics.php). Attackers can inject malicious JavaScript payloads into the Titlefield during topic creation or updates.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-61087",
+      "description": "SourceCodester Pet Grooming Management Software 1.0 is vulnerable to Cross Site Scripting (XSS) via the Customer Name field under Customer Management Section.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-61096",
+      "description": "PHPGurukul Online Shopping Portal Project v2.1 is vulnerable to SQL Injection in /shopping/login.php via the fullname parameter.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-56154",
+      "description": "htmly v3.0.8 is vulnerable to Cross Site Scripting (XSS) in the /author/:name endpoint of the affected application. The name parameter is not properly sanitized before being reflected in the HTML response, allowing attackers to inject arbitrary JavaScript payloads.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-56161",
+      "description": "YOSHOP 2.0 allows unauthenticated information disclosure via comment-list API endpoints in the Goods module. The Comment model eagerly loads the related User model without field filtering; because User.php defines no $hidden or $visible attributes, sensitive fields (bcrypt password hash, mobile number, pay_money, expend_money.) are exposed in JSON responses. Route names vary per deployment (e.g. /api/goods.pinglun/list), but all call the same vulnerable model logic.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-56162",
+      "description": "YOSHOP 2.0 suffers from an unauthenticated SQL injection in the goodsIds parameter of the /api/goods/listByIds endpoint. The getListByIds function concatenates user input into orderRaw('field(goods_id, ...)'), allowing attackers to: (a) enumerate or modify database data, including dumping admin password hashes; (b) write web-shell files or invoke xp_cmdshell, leading to remote code execution on servers configured with sufficient DB privileges.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-57305",
+      "description": "VitaraCharts 5.3.5 is vulnerable to Server-Side Request Forgery in fileLoader.jsp.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-60660",
+      "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the mac parameter in the fromAdvSetMacMtuWan function.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-60662",
+      "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanSpeed parameter in the fromAdvSetMacMtuWan function.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-34208",
+      "description": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store user passwords using unsalted SHA-512 hashes with a fall-back to unsalted SHA-1. The hashing is performed via PHP's `hash()` function in multiple files (server_write_requests_users.php, update_database.php, legacy/Login.php, tests/Unit/Api/IdpControllerTest.php). No per-user salt is used and the fast hash algorithms are unsuitable for password storage. An attacker who obtains the password database can recover cleartext passwords via offline dictionary or rainbow table attacks. The vulnerable code also contains logic that migrates legacy SHA-1 hashes to SHA-512 on login, further exposing users still on the old hash. This vulnerability was partially resolved, but still present within the legacy authentication platform.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-34210",
+      "description": "Vasion Print (formerly PrinterLogic) Virtual Appliance Host and Application (VA/SaaS deployments) store a large number of sensitive credentials (database passwords, MySQL root password, SaaS keys, Portainer admin password, etc.) in cleartext files that are world-readable. Any local user - or any process that can read the host filesystem - can retrieve all of these secrets in plain text, leading to credential theft and full compromise of the appliance. The vendor does not consider this to be a security vulnerability as this product \"follows a shared responsibility model, where administrators are expected to configure persistent storage encryption.\"",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-59403",
+      "description": "The Flock Safety Android Collins application (aka com.flocksafety.android.collins) 6.35.31 for Android lacks authentication. It is responsible for the camera feed on Falcon, Sparrow, and Bravo devices, but exposes administrative API endpoints on port 8080 without authentication. Endpoints include but are not limited to: /reboot, /logs, /crashpack, and /adb/enable. This results in multiple impacts including denial of service (DoS) via /reboot, information disclosure via /logs, and remote code execution (RCE) via /adb/enable. The latter specifically results in adb being started over TCP without debugging confirmation, providing an attacker in the LAN/WLAN with shell access.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59405",
+      "description": "The Flock Safety Peripheral com.flocksafety.android.peripheral application 7.38.3 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) contains a cleartext DataDog API key within in its codebase. Because application binaries can be trivially decompiled or inspected, attackers can recover the OAuth secret without special privileges. This secret is intended to remain confidential and should never be embedded directly in client-side software.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-59406",
+      "description": "The Flock Safety Pisco com.flocksafety.android.pisco application 6.21.11 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) has a cleartext Auth0 client secret in its codebase. Because application binaries can be trivially decompiled or inspected, attackers can recover this OAuth secret without special privileges. This secret is intended to remain confidential and should never be embedded directly in client-side software.",
+      "severity": "MEDIUM",
+      "score": 6.2
+    },
+    {
+      "id": "CVE-2025-59407",
+      "description": "The Flock Safety DetectionProcessing com.flocksafety.android.objects application 6.35.33 for Android (installed on Falcon and Sparrow License Plate Readers and Bravo Edge AI Compute Devices) bundles a Java Keystore (flock_rye.bks) along with its hardcoded password (flockhibiki17) in its code. The keystore contains a private key.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-59409",
+      "description": "Flock Safety Falcon and Sparrow License Plate Readers OPM1.171019.026 ship with development Wi-Fi credentials (test_flck) stored in cleartext in production firmware.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-60661",
+      "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the cloneType parameter in the fromAdvSetMacMtuWan function.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-60663",
+      "description": "Tenda AC18 V15.03.05.19 was discovered to contain a stack overflow via the wanMTU parameter in the fromAdvSetMacMtuWan function.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-56019",
+      "description": "An insecure permission vulnerability exists in the Agasta Easytouch+ version 9.3.97 The device allows unauthorized mobile applications to connect via Bluetooth Low Energy (BLE) without authentication. Once an unauthorized connection is established, legitimate applications are unable to connect, causing a denial of service. The attack requires proximity to the device, making it exploitable from an adjacent network location.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-32942",
+      "description": "SSH Tectia Server before 6.6.6 sometimes allows attackers to read and alter a user's session traffic.",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2025-49090",
+      "description": "The Matrix specification before 1.16 (i.e., with a room version before 12 and State Resolution before 2.1) has deficient state resolution.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-54315",
+      "description": "The Matrix specification before 1.16 (i.e., with a room version before 12) lacks create event uniqueness.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-59835",
+      "description": "LangBot is a global IM bot platform designed for LLMs. In versions 4.1.0 up to but not including 4.3.5, authorized attackers can exploit the /api/v1/files/documents interface to perform arbitrary file uploads. Since this interface does not strictly restrict the storage directory of files on the server, it is possible to upload dangerous files to specific system directories. This is fixed in version 4.3.5.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-10653",
+      "description": "An unauthenticated debug port may allow access to the device file system.",
+      "severity": "HIGH",
+      "score": 8.6
+    },
+    {
+      "id": "CVE-2025-54086",
+      "description": "CVE-2025-54086 is an excess permissions vulnerability in the\nWarehouse component of Absolute Secure Access prior to version 14.10. Attackers\nwith access to the local file system can read the Java keystore file. The\nattack complexity is low, there are no attack requirements, the privileges\nrequired are low and no user interaction is required. Impact to confidentiality\nis low, there is no impact to integrity or availability.",
+      "severity": "LOW",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2025-54087",
+      "description": "CVE-2025-54087 is a server-side request forgery\nvulnerability in Secure Access prior to version 14.10. Attackers with\nadministrative privileges can publish a crafted test HTTP request originating\nfrom the Secure Access server. The attack complexity is high, there are no\nattack requirements, and user interaction is required. There is no direct\nimpact to confidentiality, integrity, or availability. There is a low severity\nsubsequent system impact to integrity.",
+      "severity": "LOW",
+      "score": 2.6
+    },
+    {
+      "id": "CVE-2025-61595",
+      "description": "MANTRA is a purpose-built RWA Layer 1 Blockchain, capable of adherence to real world regulatory requirements. Versions 4.0.1 and below do not enforce the tx gas limit in its send hooks. Send hooks can spend more gas than what remains in tx, combined with recursive calls in the wasm contract, potentially amplifying the gas consumption exponentially. This is fixed in version 4.0.2.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61603",
+      "description": "WeGIA is a Web manager for charitable institutions. Versions 3.4.12 and below include an SQL Injection vulnerability which was identified in the /controle/control.php endpoint, specifically in the descricao parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-61604",
+      "description": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Cross-Site Request Forgery (CSRF) vulnerability. The delete operation for the Almoxarifado entity is exposed via HTTP GET without CSRF protection, allowing a third-party site to trigger the action using the victim\u2019s authenticated session. This issue is fixed in version 3.5.0.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-54088",
+      "description": "CVE-2025-54088 is an open-redirect vulnerability in Secure\nAccess prior to version 14.10. Attackers with access to the console can\nredirect victims to an arbitrary URL. The attack complexity is low, attack\nrequirements are present, no privileges are required, and users must actively\nparticipate in the attack. Impact to confidentiality is low and there is no\nimpact to integrity or availability. There are high severity impacts to\nconfidentiality, integrity, availability in subsequent systems.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-54089",
+      "description": "CVE-2025-54089 is a cross-site scripting vulnerability in versions\nof secure access prior to 14.10. Attackers with administrative access to the\nconsole can interfere with another administrator\u2019s access to the console. The\nattack complexity is low; there are no attack requirements. Privileges required\nto execute the attack are high and the victim must actively participate in the\nattack sequence. There is no impact to confidentiality or availability, there\nis a low impact to integrity.",
+      "severity": "LOW",
+      "score": 3.4
+    },
+    {
+      "id": "CVE-2025-61605",
+      "description": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an SQL Injection vulnerability which was identified in the /pet/profile_pet.php endpoint, specifically in the id_pet parameter. This vulnerability allows attackers to execute arbitrary SQL commands, compromising the confidentiality, integrity, and availability of the database. This issue is fixed in version 3.5.0.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-61606",
+      "description": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain an Open Redirect vulnerability, identified in the control.php endpoint, specifically in the nextPage parameter (metodo=listarUmnomeClasse=FuncionarioControle). This vulnerability allows attackers to redirect users to arbitrary external domains, enabling phishing campaigns, malicious payload distribution, or user credential theft. This issue is fixed in version 3.5.0.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-61665",
+      "description": "WeGIA is an open source web manager with a focus on charitable institutions. Versions 3.4.12 and below contain a Broken Access Control vulnerability, identified in the get_relatorios_socios.php endpoint. This vulnerability allows unauthenticated attackers to directly access sensitive personal and financial information of members without requiring authentication or authorization. This issue is fixed in version 3.5.0.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-61600",
+      "description": "Stalwart is a mail and collaboration server. Versions 0.13.3 and below contain an unbounded memory allocation vulnerability in the IMAP protocol parser which allows remote attackers to exhaust server memory, potentially triggering the system's out-of-memory (OOM) killer and causing a denial of service. The CommandParser implementation enforces size limits on its dynamic buffer in most parsing states, but several state handlers omit these validation checks. This issue is fixed in version 0.13.4. A workaround for this issue is to implement rate limiting and connection monitoring at the network level, however this does not provide complete protection.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-61666",
+      "description": "Traccar is an open source GPS tracking system. Default installs of Traccar on Windows between versions 6.1-  6.8.1 and non default installs between versions 5.8 - 6.0 are vulnerable to unauthenticated local file inclusion attacks which can lead to leakage of passwords or any file on the file system including the Traccar configuration file. Versions 5.8 - 6.0 are only vulnerable if <entry key='web.override'>./override</entry> is set in the configuration file. Versions 6.1 - 6.8.1 are vulnerable by default as the web override is enabled by default. The vulnerable code is removed in version 6.9.0.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61668",
+      "description": "Volto is a ReactJS-based frontend for the Plone Content Management System. Versions 16.34.0 and below, 17.0.0 through 17.22.1, 18.0.0 through 18.27.1, and 19.0.0-alpha.1 through 19.0.0-alpha.5, an anonymous user could cause the NodeJS server part of Volto to quit with an error when visiting a specific URL. This issue is fixed in versions 16.34.1, 17.22.2, 18.27.2 and 19.0.0-alpha.6.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-10895",
+      "description": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
+      "severity": null,
+      "score": null
+    }
   ]
 }
