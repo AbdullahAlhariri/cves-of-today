@@ -2318,5 +2318,967 @@
       "severity": null,
       "score": null
     }
+  ],
+  "2025-10-03": [
+    {
+      "id": "CVE-2025-11241",
+      "description": "The Yoast SEO Premium plugin for WordPress is vulnerable to Stored Cross-Site Scripting in versions 25.7 to 25.9 due to a flawed regex used to remove an attribute in post content, which can be abused to inject arbitrary HTML attributes, including JavaScript event handlers. This vulnerability allows a user with Contributor access or higher to create a post containing a malicious JavaScript payload.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-59297",
+      "description": "Delta Electronics DIAScreen\u00a0lacks proper validation of the user-supplied file. If a user opens a malicious file, an attacker can leverage this vulnerability to execute code in the context of the current process.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-59298",
+      "description": "Delta Electronics DIAScreen\u00a0lacks proper validation of the user-supplied file. If a user opens a malicious file, an attacker can leverage this vulnerability to execute code in the context of the current process.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-59299",
+      "description": "Delta Electronics DIAScreen\u00a0lacks proper validation of the user-supplied file. If a user opens a malicious file, an attacker can leverage this vulnerability to execute code in the context of the current process.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-59300",
+      "description": "Delta Electronics DIAScreen\u00a0lacks proper validation of the user-supplied file. If a user opens a malicious file, an attacker can leverage this vulnerability to execute code in the context of the current process.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-61847",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59536",
+      "description": "Claude Code is an agentic coding tool. Versions before 1.0.111 were vulnerable to Code Injection due to a bug in the startup trust dialog implementation. Claude Code could be tricked to execute code contained in a project before the user accepted the startup trust dialog. Exploiting this requires a user to start Claude Code in an untrusted directory. Users on standard Claude Code auto-update will have received this fix automatically. Users performing manual updates are advised to update to the latest version. This issue is fixed in version 1.0.111.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-61589",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.6 and below, Mermaid (a to render diagrams) allows embedding images which then get rendered by Cursor in the chat box. An attacker can use this to exfiltrate sensitive information to a third-party attacker controlled server through an image fetch after successfully performing a prompt injection. A malicious model (or hallucination/backdoor) might also trigger this exploit at will. This issue requires prompt injection from malicious data (web, image upload, source code) in order to exploit. In that case, it can send sensitive information to an attacker-controlled external server. Some additional bypasses not covered in the initial fix to this issue were discovered, see GHSA-43wj-mwcc-x93p. This issue is fixed in version 1.7.",
+      "severity": "MEDIUM",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2025-61597",
+      "description": "Emlog is an open source website building system. In versions 2.5.21 and below, an HTML template injection allows stored cross\u2011site scripting (XSS) via the mail template settings. Once a malicious payload is saved, any subsequent visit to the settings page in an authenticated admin context will execute attacker\u2011controlled JavaScript, enabling session/token theft and full admin account takeover. This issue is fixed in version 2.5.22.",
+      "severity": "HIGH",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2025-61599",
+      "description": "Emlog is an open source website building system. A stored Cross-Site Scripting (XSS) vulnerability exists in the \"Twitter\"feature of EMLOG Pro 2.5.21 and below. An authenticated user with privileges to post a \"Twitter\" message can inject arbitrary JavaScript code. The malicious script is stored on the server and gets executed in the browser of any user, including administrators, when they click on the malicious post to view it. This issue does not currently have a fix.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-61671",
+      "description": "Rejected reason: Further research determined the issue is not an open source vulnerability.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-0616",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Teknolojik Center Telecommunication Industry Trade Co. Ltd. B2B - Netsis Panel allows SQL Injection.This issue affects B2B - Netsis Panel: through 20251003.\u00a0NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-11223",
+      "description": "Installer of \n\nPanasonic \n\nAutoDownloader \n\n\n\n version 1.2.8\ncontains an issue with the DLL search path, which may lead to loading \n\na crafted DLL file in the same directory.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-6388",
+      "description": "The Spirit Framework plugin for WordPress is vulnerable to authentication bypass in all versions up to, and including, 1.2.14. This is due to the custom_actions() function not properly validating a user's identity prior to authenticating them to the site. This makes it possible for unauthenticated attackers to log in as any user, including administrators, granted they have access to the administrator's username.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-11234",
+      "description": "A flaw was found in QEMU. If the QIOChannelWebsock object is freed while it is waiting to complete a handshake, a GSource is leaked. This can lead to the callback firing later on and triggering a use-after-free in the use of the channel. This can be abused by a malicious client with network access to the VNC WebSocket port to cause a denial of service during the WebSocket handshake prior to the VNC client authentication.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-0876",
+      "description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Isin Basi Advertisement Information Technologies Trade Inc. IT's Workif allows Cross-Site Scripting (XSS).This issue affects IT's Workif: through 20251003.\u00a0NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 4.1
+    },
+    {
+      "id": "CVE-2025-10053",
+      "description": "The TableGen \u2013 Data Table Generator plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.3.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-10165",
+      "description": "The AP Background plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'adv_parallax_back' shortcode in all versions up to, and including, 3.8.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-10192",
+      "description": "The WP Photo Effects plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wppe_effect' shortcode in all versions up to, and including, 1.2.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-10212",
+      "description": "The SiteAlert (Formerly WP Health) plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on multiple functions in all versions up to, and including, 1.9.8. This makes it possible for unauthenticated attackers to view the site health information, including a list of installed and outdated plugins, PHP and Database version, etc.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-10302",
+      "description": "The Ultimate Viral Quiz plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0. This is due to missing or incorrect nonce validation on thesave_options() function. This makes it possible for unauthenticated attackers to update the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-10306",
+      "description": "The Backup Bolt plugin for WordPress is vulnerable to arbitrary file downloads and backup location writes in all versions up to, and including, 1.4.1 via the process_backup_batch() function. This makes it possible for authenticated attackers, with Administrator-level access and above, to download directories outside of the webroot and write backup zip files to arbitrary locations.",
+      "severity": "LOW",
+      "score": 3.8
+    },
+    {
+      "id": "CVE-2025-10309",
+      "description": "The PayPal Forms plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.3. This is due to missing nonce validation on the form creation and management functions. This makes it possible for unauthenticated attackers to create new PayPal forms and modify PayPal payment settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-10311",
+      "description": "The Comment Info Detector plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.5. This is due to missing nonce validation on the options.php file when handling form submissions. This makes it possible for unauthenticated attackers to modify plugin settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-10547",
+      "description": "An uninitialized variable in the HTTP CGI request arguments processing component of Vigor Routers running DrayOS may allow an attacker the ability to perform RCE on the appliance through memory corruption.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-10582",
+      "description": "The WP Dispatcher plugin for WordPress is vulnerable to SQL Injection via the \u2018id\u2019 parameter in all versions up to, and including, 1.2.0 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-10726",
+      "description": "The WPRecovery plugin for WordPress is vulnerable to SQL Injection via the 'data[id]' parameter in all versions up to, and including, 2.0. This is due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query. This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database. Additionally, the result of this SQL injection is passed directly to PHP's unlink() function, allowing attackers to delete arbitrary files on the server by injecting file paths through the SQL query.",
+      "severity": "CRITICAL",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-27231",
+      "description": "The LDAP 'Bind password' value cannot be read after saving, but a Super Admin account can leak it by changing LDAP 'Host' to a rogue LDAP server. To mitigate this, the 'Bind password' value is now reset on 'Host' change.",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-27236",
+      "description": "A regular Zabbix user can search other users in their user group via Zabbix API by select fields the user does not have access to view. This allows data-mining some field values the user does not have access to.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-27237",
+      "description": "In Zabbix Agent and Agent 2 on Windows, the OpenSSL configuration file is loaded from a path writable by low-privileged users, allowing malicious modification and potential local privilege escalation by injecting a DLL.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-40636",
+      "description": "SQL injection vulnerability in Joomla module mod_vvisit_counter v2.0.4j3. This vulnerability allows an attacker to retrieve database content via the \u2018cip_vvisitcounter\u2019 cookie at all endpoints where the plugin counts visits.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-49641",
+      "description": "A regular Zabbix user with no permission to the Monitoring -> Problems view is still able to call the problem.view.refresh action and therefore still retrieve a list of active problems.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-7721",
+      "description": "The JoomSport \u2013 for Sports: Team & League, Football, Hockey & more plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 5.7.3 via the task parameter. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-7825",
+      "description": "The Schema Plugin For Divi, Gutenberg & Shortcodes plugin for WordPress is vulnerable to Object Instantiation in all versions up to, and including, 4.3.2 via deserialization of untrusted input via the wpt_schema_breadcrumbs shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject a PHP Object. No known POP chain is present in the vulnerable software, which means this vulnerability has no impact unless another plugin or theme containing a POP chain is installed on the site. If a POP chain is present via an additional plugin or theme installed on the target system, it may allow the attacker to perform actions like delete arbitrary files, retrieve sensitive data, or execute code depending on the POP chain present.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-8669",
+      "description": "The Customify theme for WordPress is vulnerable to Cross-Site Request Forgery in version 0.4.11. This is due to missing or incorrect nonce validation on the reset_customize_section function. This makes it possible for unauthenticated attackers to reset theme customization settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-8776",
+      "description": "The Epic Bootstrap Buttons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018icol\u2019 parameter in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9045",
+      "description": "The Easy Elementor Addons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via several widget parameters in versions less than, or equal to, 2.2.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9077",
+      "description": "The Ultra Addons Lite for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'Animated Text' field of the Typeout Widget in version 1.1.9 and below due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9080",
+      "description": "The Generic Elements plugin for WordPress is vulnerable to Stored Cross-Site Scripting via multiple widget fields in version 1.2.8 and earlier. This is due to insufficient input sanitization and output escaping on user-supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9129",
+      "description": "The Flexi plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin for WordPress's flexi-form-tag shortcode in all versions up to, and including, 4.28 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9130",
+      "description": "The Unify plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin for WordPress's unify_checkout shortcode in all versions up to, and including, 3.4.7 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9194",
+      "description": "The Constructor theme for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the clean() function in all versions up to, and including, 1.6.5. This makes it possible for authenticated attackers, with Subscriber-level access and above, to trigger a theme clean.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9198",
+      "description": "The Wp cycle text announcement plugin for WordPress is vulnerable to SQL Injection via the 'cycle-text' shortcode in all versions up to, and including, 8.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-9199",
+      "description": "The Woo superb slideshow transition gallery with random effect plugin for WordPress is vulnerable to SQL Injection via the 'woo-superb-slideshow' shortcode in all versions up to, and including, 9.1 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Contributor-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-9200",
+      "description": "The Blappsta Mobile App Plugin \u2013 Your native, mobile iPhone App and Android App plugin for WordPress is vulnerable to SQL Injection via the nh_ynaa_comments() function in all versions up to, and including, 0.8.8.8 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for unauthenticated attackers to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-9204",
+      "description": "The X Addons for Elementor plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Youtube Video ID field in all versions up to, and including, 1.0.16. This is due to insufficient input sanitization and output escaping on the Youtube Video ID parameter. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an affected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9206",
+      "description": "The Meks Easy Maps plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the post title field in all version up to, and including, 2.1.4. This is due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the map containing the malicious post.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9209",
+      "description": "The RestroPress \u2013 Online Food Ordering System plugin for WordPress is vulnerable to Authentication Bypass in versions 3.0.0 to 3.1.9.2. This is due to the plugin exposing user private tokens and API data via the /wp-json/wp/v2/users REST API endpoint. This makes it possible for unauthenticated attackers to forge JWT tokens for other users, including administrators, and authenticate as them.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-9212",
+      "description": "The WP Dispatcher plugin for WordPress is vulnerable to arbitrary file uploads due to missing file type validation in the wp_dispatcher_process_upload() function in all versions up to, and including, 1.2.0. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible. The directory does have an .htaccess file which limits the ability to achieve remote code execution.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-9213",
+      "description": "The TextBuilder plugin for WordPress is vulnerable to Cross-Site Request Forgery in versions 1.0.0 to 1.1.1. This is due to missing or incorrect nonce validation on the 'handleToken' function. This makes it possible for unauthenticated attackers to update a user's authorization token via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. Once the token is updated, an attacker can update the user's password and email address.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-9286",
+      "description": "The Appy Pie Connect for WooCommerce plugin for WordPress is vulnerable to Privilege Escalation due to missing authorization within the reset_user_password() REST handler in all versions up to, and including, 1.1.2. This makes it possible for unauthenticated attackers to to reset the password of arbitrary users, including administrators, thereby gaining administrative access.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-9332",
+      "description": "The Interactive Human Anatomy with Clickable Body Parts plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 2.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-9333",
+      "description": "The Smart Docs plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.1.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-9372",
+      "description": "The Ultimate Multi Design Video Carousel plugin for WordPress is vulnerable to Stored Cross-Site Scripting in all versions up to, and including, 1.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with editor-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-9561",
+      "description": "The AP Background plugin for WordPress is vulnerable to arbitrary file uploads due to missing authorization and insufficient file validation within the advParallaxBackAdminSaveSlider() handler in versions 3.8.1 to 3.8.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to upload arbitrary files on the affected site's server which may make remote code execution possible.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-9630",
+      "description": "The WP SinoType plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0. This is due to missing or incorrect nonce validation on the sinotype_config function. This makes it possible for unauthenticated attackers to modify typography settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9854",
+      "description": "The A Simple Multilanguage Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'asmp-switcher' shortcode in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9858",
+      "description": "The Auto Bulb Finder for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'abf_vehicle' shortcode in all versions up to, and including, 2.8.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9859",
+      "description": "The Fintelligence Calculator plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'fintelligence-calculator' shortcode in all versions up to, and including, 1.0.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9875",
+      "description": "The Event Tickets, RSVPs, Calendar plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'ticket_spot' shortcode in all versions up to, and including, 1.0.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9876",
+      "description": "The Ird Slider plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'irdslider' shortcode in all versions up to, and including, 1.0.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-9884",
+      "description": "The Mobile Site Redirect plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.2.1. This is due to missing or incorrect nonce validation on a function. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-9885",
+      "description": "The MPWizard \u2013 Create Mercado Pago Payment Links plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.2.1. This is due to missing or incorrect nonce validation in the '/includes/admin/class-mpwizard-table.php' file. This makes it possible for unauthenticated attackers to delete arbitrary posts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9889",
+      "description": "The ContentMX Content Publisher plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.6. This is due to missing or incorrect nonce validation on the cmx_activate_connection function. This makes it possible for unauthenticated attackers to bind their own ContentMX connection via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9892",
+      "description": "The Restrict User Registration plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.1. This is due to missing or incorrect nonce validation on the update() function. This makes it possible for unauthenticated attackers to update the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-9895",
+      "description": "The Notification Bar plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.2. This is due to missing or incorrect nonce validation on the 'subscriber-list-empty.php' file. This makes it possible for unauthenticated attackers to empty the subscriber list via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9897",
+      "description": "The AP Background plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.8.2. This is due to missing or incorrect nonce validation on the advParallaxBackAdminSaveSlider function. This makes it possible for unauthenticated attackers to create or modify background sliders via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9945",
+      "description": "The Optimize More! \u2013 CSS plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.3. This is due to missing or incorrect nonce validation on the reset_plugin function. This makes it possible for unauthenticated attackers to reset the plugin's optimization settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-10609",
+      "description": "Use of Hard-coded Credentials vulnerability in Logo Software Inc. TigerWings ERP allows Read Sensitive Constants Within an Executable.This issue affects TigerWings ERP: from 01.01.00 before 3.03.00.",
+      "severity": "MEDIUM",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2025-59489",
+      "description": "Unity Runtime before 2025-10-02 on Android, Windows, macOS, and Linux allows argument injection that can result in loading of library code from an unintended location. If an application was built with a version of Unity Editor that had the vulnerable Unity Runtime code, then an adversary may be able to execute code on, and exfiltrate confidential information from, the machine on which that application is running. NOTE: product status is provided for Unity Editor because that is the information available from the Supplier. However, updating Unity Editor typically does not address the effects of the vulnerability; instead, it is necessary to rebuild and redeploy all affected applications.",
+      "severity": "HIGH",
+      "score": 7.4
+    },
+    {
+      "id": "CVE-2025-60445",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in XunRuiCMS version 4.7.1. The vulnerability exists due to insufficient validation of SVG file uploads in the dayrui/Fcms/Library/Upload.php component, allowing attackers to inject malicious JavaScript code that executes when the uploaded file is viewed.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60447",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in Emlog Pro 2.5.19. The vulnerability exists in the email template configuration component located at /admin/setting.php?action=mail, which allows administrators to input HTML code that is not properly sanitized, leading to persistent JavaScript execution.",
+      "severity": "MEDIUM",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2025-60448",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in Emlog Pro 2.5.19. The vulnerability exists due to insufficient validation of SVG file uploads in the /admin/media.php component, allowing attackers to upload malicious SVG files containing JavaScript code that executes when the uploaded file is viewed.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60449",
+      "description": "An information disclosure vulnerability has been discovered in SeaCMS 13.1. The vulnerability exists in the admin_safe.php component located in the /btcoan/ directory. This security flaw allows authenticated administrators to scan and download not only the application\u2019s source code but also potentially any file accessible on the server\u2019s root directory.",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-60450",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in MetInfo CMS version 8.0. The vulnerability exists due to insufficient validation and sanitization of SVG file uploads in the app\\system\\include\\module\\editor\\Uploader.class.php component. This security flaw allows attackers to upload malicious SVG files containing JavaScript code that executes when the uploaded file is viewed or accessed.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60451",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in MetInfo CMS version 8.0. The vulnerability exists due to insufficient validation and sanitization of SVG file uploads in the app\\system\\include\\module\\uploadify.class.php component, specifically in the website settings module. This security flaw allows attackers to upload malicious SVG files containing JavaScript code that executes when the uploaded file is viewed or accessed.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60452",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in MetInfo CMS version 8.0. The vulnerability exists in the download management module, specifically in the app\\system\\download\\admin\\download_admin.class.php component. The vulnerability allows attackers to upload malicious SVG files containing JavaScript code that executes when the uploaded file is viewed or accessed by users.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60453",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in MetInfo CMS version 8.0. The vulnerability exists in the column management module, specifically in the app\\system\\column\\admin\\index.class.php component. The vulnerability allows attackers to upload malicious SVG files containing JavaScript code that executes when the uploaded file is viewed or accessed by users.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60454",
+      "description": "A stored Cross-Site Scripting (XSS) vulnerability has been discovered in MetInfo CMS version 8.0. The vulnerability exists in the image management module, specifically in the app\\system\\img\\admin\\img_admin.class.php component. The vulnerability allows attackers to upload malicious SVG files containing JavaScript code that executes when the uploaded file is viewed or accessed by users.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-10728",
+      "description": "When the module renders a Svg file that contains a <pattern> element, it might end up rendering it recursively\u00a0leading to stack overflow DoS",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-10729",
+      "description": "The module will parse a <pattern> node which is not a child of a structural node. The node will be deleted after creation but might be accessed later leading to a use after free.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-34226",
+      "description": "OpenPLC Runtime v3 contains an input validation flaw in the /upload-program-action endpoint: the epoch_time field supplied during program uploads is not validated and can be crafted to induce corruption of the programs database. After a successful malformed upload the runtime continues to operate until a restart; on restart the runtime can fail to start because of corrupted database entries, resulting in persistent denial of service requiring complete rebase of the product to recover. This vulnerability was remediated by commit 095ee09.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-55971",
+      "description": "TCL 65C655 Smart TV, running firmware version V8-R75PT01-LF1V269.001116 (Android TV, Kernel 5.4.242+), is vulnerable to a blind, unauthenticated Server-Side Request Forgery (SSRF) vulnerability via the UPnP MediaRenderer service (AVTransport:1). The device accepts unauthenticated SetAVTransportURI SOAP requests over TCP/16398 and attempts to retrieve externally referenced URIs, including attacker-controlled payloads. The blind SSRF allows for sending requests on behalf of the TV, which can be leveraged to probe for other internal or external services accessible by the device (e.g., 127.0.0.1:16XXX, LAN services, or internet targets), potentially enabling additional exploit chains.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-55972",
+      "description": "A TCL Smart TV running a vulnerable UPnP/DLNA MediaRenderer implementation is affected by a remote, unauthenticated Denial of Service (DoS) condition. By sending a flood of malformed or oversized SetAVTransportURI SOAP requests to the UPnP control endpoint, an attacker can cause the device to become unresponsive. This denial persists as long as the attack continues and affects all forms of TV operation. Manual user control and even reboots do not restore functionality unless the flood stops.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-57423",
+      "description": "A SQL injection vulnerability was discovered in the /articles endpoint of MyClub 0.5, affecting the query parameters Content, GroupName, PersonName, lastUpdate, pool, and title. Due to insufficient input sanitisation, an unauthenticated remote attacker could inject arbitrary SQL commands via a crafted GET request, potentially leading to information disclosure or manipulation of the database.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-60787",
+      "description": "MotionEye v0.43.1b4 and before is vulnerable to OS Command Injection in configuration parameters such as image_file_name. Unsanitized user input is written to Motion configuration files, allowing remote authenticated attackers with admin access to achieve code execution when Motion is restarted.",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2021-42193",
+      "description": "nopCommerce 4.40.3 is vulnerable to XSS in the Product Name at /Admin/Product/Edit/[id]. Each time a user views the product in the shop, the XSS payload fires.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-56551",
+      "description": "An issue in DirectAdmin v1.680 allows unauthorized attackers to manipulate the page layout and replace the legitimate login interface with arbitrary attacker-controlled content via supplying a crafted GET request.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-61590",
+      "description": "Cursor is a code editor built for programming with AI. Versions 1.6 and below are vulnerable to Remote Code Execution (RCE) attacks through Visual Studio Code Workspaces. Workspaces allow users to open more than a single folder and save specific settings (pretty similar to .vscode/settings.json) for the folders / project. An untitled workspace is automatically created by VS Code (untitled.code-workspace), which contains all the folders and workspace settings from the user's current session, opening up an entire new attack vector if the user has a .code-workspace file in path (either untitled created automatically or a saved one). If an attacker is able to hijack the chat context of the victim (such as via a compromised MCP server), they can use prompt injection to make the Cursor Agent write into this file and modify the workspace. This leads to a bypass of CVE-2025-54130 which can lead to RCE by writing to the settings section. This issue is fixed in version 1.7.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-61591",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.7 and below, when MCP uses OAuth authentication with an untrusted MCP server, an attacker can impersonate a malicious MCP server and return crafted, maliciously injected commands during the interaction process, leading to command injection and potential remote code execution. If chained with an untrusted MCP service via OAuth, this command injection vulnerability could allow arbitrary code execution on the host by the agent. This can then be used to directly compromise the system by executing malicious commands with full user privileges. This issue does not currently have a fixed release version, but there is a patch, 2025.09.17-25b418f.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2024-56804",
+      "description": "An SQL injection vulnerability has been reported to affect Video Station. If a remote attacker gains a user account, they can then exploit the vulnerability to execute unauthorized code or commands.\n\nWe have already fixed the vulnerability in the following version:\nVideo Station 5.8.4 and later",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-33034",
+      "description": "A path traversal vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to read the contents of unexpected files or system data.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-33039",
+      "description": "An allocation of resources without limits or throttling vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-33040",
+      "description": "An allocation of resources without limits or throttling vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44006",
+      "description": "An allocation of resources without limits or throttling vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44007",
+      "description": "An allocation of resources without limits or throttling vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-46817",
+      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to cause an integer overflow and potentially lead to remote code execution The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2.",
+      "severity": "HIGH",
+      "score": 7.0
+    },
+    {
+      "id": "CVE-2025-52653",
+      "description": "HCL MyXalytics product is affected by Cross Site Scripting vulnerability in the web application. This can allow the execution of unauthorized scripts, potentially resulting in unauthorized actions or access.",
+      "severity": "HIGH",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2025-61592",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.7 and below, automatic loading of project-specific CLI configuration from the current working directory (<project>/.cursor/cli.json) could override certain global configurations in Cursor CLI. This allowed users running the CLI inside a malicious repository to be vulnerable to Remote Code Execution through a combination of permissive configuration (allowing shell commands) and prompt injection delivered via project-specific Rules (<project>/.cursor/rules/rule.mdc) or other mechanisms. The fix for this issue is currently available as a patch 2025.09.17-25b418f. As of October 3, 2025 there is no release version.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-61593",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.7 and below, a vulnerability in the way Cursor CLI Agent protects its sensitive files (i.e. */.cursor/cli.json) allows attackers to modify the content of the files through prompt injection, thus achieving remote code execution. A prompt injection can lead to full RCE through modifying sensitive files on case-insensitive filesystems. This issue is fixed in a commit, 25b418f, but has yet to be released as of October 3, 2025.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-44008",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44009",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44010",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44011",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44012",
+      "description": "An allocation of resources without limits or throttling vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to prevent other systems, applications, or processes from accessing the same type of resource.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.2 ( 2025/07/31 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-44014",
+      "description": "An out-of-bounds write vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to modify or corrupt memory.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.1 ( 2025/07/09 ) and later",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-46818",
+      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate different LUA objects and potentially run their own code in the context of another user. The problem exists in all versions of Redis with LUA scripting. This issue is fixed in version 8.2.2. A workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing LUA scripts. This can be done using ACL to block a script by restricting both the EVAL and FUNCTION command families.",
+      "severity": "MEDIUM",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2025-46819",
+      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted LUA script to read out-of-bound data or crash the server and subsequent denial of service. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to block a script by restricting both the EVAL and FUNCTION command families.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-47210",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.2 ( 2025/07/31 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-47211",
+      "description": "A path traversal vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to read the contents of unexpected files or system data.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-47212",
+      "description": "A command injection vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to execute arbitrary commands.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2025-47213",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-47214",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\n  and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-48726",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-48727",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-48728",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-48729",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-48730",
+      "description": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-52424",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52427",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52428",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52429",
+      "description": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-52432",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\n  and later\nQuTS hero h5.2.6.3195 build 20250715 and later\nQuTS hero h5.3.0.3192 build 20250716 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52433",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52654",
+      "description": "HCL MyXalytics v6.6 is affected by an HTML Injection. This issue occurs when untrusted input is included in the output without proper handling, potentially allowing unauthorized content injection and manipulation.",
+      "severity": "MEDIUM",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2025-52656",
+      "description": "HCL MyXalytics: 6.6.\u00a0\u00a0is affected by Mass Assignment vulnerability. Mass Assignment occurs when user input is automatically bound to application objects without proper validation or access controls, potentially allowing unauthorized modification of sensitive fields.",
+      "severity": "HIGH",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2025-52658",
+      "description": "HCL MyXalytics is affected by the use of vulnerable/outdated versions which can expose the application to known security risks that could be exploited.",
+      "severity": "LOW",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2025-52853",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52854",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52855",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52857",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52858",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52859",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52860",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52862",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52866",
+      "description": "A NULL pointer dereference vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-52867",
+      "description": "An uncontrolled resource consumption vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to launch a denial-of-service (DoS) attack.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.2 ( 2025/07/31 ) and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-53406",
+      "description": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-53407",
+      "description": "A use of externally-controlled format string vulnerability has been reported to affect several QNAP operating system versions. If a remote attacker gains an administrator account, they can then exploit the vulnerability to obtain secret data or modify memory.\n\nWe have already fixed the vulnerability in the following versions:\nQTS 5.2.6.3195 build 20250715 and later\nQuTS hero h5.2.6.3195 build 20250715 and later",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-53595",
+      "description": "An SQL injection vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to execute unauthorized code or commands.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.2 ( 2025/07/31 ) and later",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-54153",
+      "description": "An SQL injection vulnerability has been reported to affect Qsync Central. If a remote attacker gains a user account, they can then exploit the vulnerability to execute unauthorized code or commands.\n\nWe have already fixed the vulnerability in the following version:\nQsync Central 5.0.0.2 ( 2025/07/31 ) and later",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-54154",
+      "description": "An improper authentication vulnerability has been reported to affect QNAP Authenticator. If an attacker gains physical access, they can then exploit the vulnerability to compromise the security of the system.\n\nWe have already fixed the vulnerability in the following version:\nQNAP Authenticator 1.3.1.1227 and later",
+      "severity": "MEDIUM",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2025-57714",
+      "description": "An unquoted search path or element vulnerability has been reported to affect NetBak Replicator. If a local attacker gains a user account, they can then exploit the vulnerability to execute unauthorized code or commands.\n\nWe have already fixed the vulnerability in the following version:\nNetBak Replicator 4.5.15.0807 and later",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-49844",
+      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free and potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.",
+      "severity": "CRITICAL",
+      "score": 9.9
+    },
+    {
+      "id": "CVE-2025-53354",
+      "description": "NiceGUI is a Python-based UI framework. Versions 2.24.2 and below are at risk for Cross-Site Scripting (XSS) when developers render unescaped user input into the DOM using ui.html(). NiceGUI did not enforce HTML or JavaScript sanitization, so applications that directly combine components like ui.input() with ui.html() or  ui.chat_message with HTML content without escaping may allow attackers to execute arbitrary JavaScript in the user\u2019s browser. Applications that do not pass untrusted input into ui.html() are not affected. This issue is fixed in version 3.0.0.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-54374",
+      "description": "Eidos is an extensible framework for Personal Data Management. Versions 0.21.0 and below contain a one-click remote code execution vulnerability. An attacker can exploit this vulnerability by embedding a specially crafted eidos: URL on any website, including a malicious one they control. When a victim visits such a site or clicks on the link, the browser triggers the app\u2019s custom URL handler (eidos:), causing the Eidos application to launch and process the URL, leading to remote code execution on the victim\u2019s machine. This issue does not have a fix as of October 3, 2025",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-59829",
+      "description": "Claude Code is an agentic coding tool. Versions below 1.0.120 failed to account for symlinks when checking permission deny rules. If a user explicitly denied Claude Code access to a file and Claude Code had access to a symlink pointing to that file, it was possible for Claude Code to access the file. Users on standard Claude Code auto-update will have received this fix automatically. Users performing manual updates are advised to update to the latest version. This issue is fixed in version 1.0.120.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-10692",
+      "description": "The endpoint POST /api/staff/get-new-tickets concatenates the user-controlled parameter departmentId directly into the SQL WHERE clause without parameter binding. As a result, an authenticated staff user (level \u2265 1) can inject SQL to alter the filter logic, effectively bypassing department scoping and disclosing tickets beyond their intended access.This issue affects OpenSupports: 4.11.0.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-10695",
+      "description": "Two unauthenticated diagnostic endpoints allow arbitrary backend-initiated network connections to an attacker\u2011supplied destination.\u00a0Both endpoints are exposed with permission => 'any', enabling unauthenticated SSRF for internal network scanning and service interaction.\n\nThis issue affects OpenSupports: 4.11.0.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-10696",
+      "description": "OpenSupports exposes an endpoint that allows the list of 'supervised users' for any account to be edited, but it does not validate whether the actor is the owner of that list. A Level 1 staff member can modify the supervision relationship of a third party (the target user), who can then view the tickets of the added 'supervised' users. This breaks the authorization model and filters the content of other users' tickets.This issue affects OpenSupports: 4.11.0.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-59943",
+      "description": "phpMyFAQ is an open source FAQ web application. Versions 4.0-nightly-2025-10-03 and below do not enforce uniqueness of email addresses during user registration. This allows multiple distinct accounts to be created with the same email. Because email is often used as an identifier for password resets, notifications, and administrative actions, this flaw can cause account ambiguity and, in certain configurations, may lead to privilege escalation or account takeover. This issue is fixed in version 4.0.13.",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-59944",
+      "description": "Cursor is a code editor built for programming with AI. Versions 1.6.23 and below contain case-sensitive checks in the way Cursor IDE protects its sensitive files (e.g., */.cursor/mcp.json), which allows attackers to modify the content of these files through prompt injection and achieve remote code execution. A prompt injection can lead to full RCE through modifying sensitive files on case-insensitive fileystems. This issue is fixed in version 1.7.",
+      "severity": "HIGH",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2025-61585",
+      "description": "Rejected reason: Further research determined the issue is not an independent vulnerability as it originates from Apache Felix.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-43825",
+      "description": "A vulnerability in Liferay Portal 7.4.0 through 7.4.3.132, and Liferay DXP 2025.Q1.0 through 2025.Q1.4, 2024.Q4.0 through 2024.Q4.5, 2024.Q3.0 through 2024.Q3.13, 2024.Q2.1 through 2024.Q2.13, 2024.Q1.1 through 2024.Q1.12, 2023.Q4.0 through 2023.Q4.10, 2023.Q3.1 through 2023.Q3.10, and 7.4 GA through update 92 allows sensitive user data to be included in the Freemarker template. This weakness permits an unauthorized actor to gain access to, and potentially render, confidential information that should remain restricted.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-61673",
+      "description": "Karapace is an open-source implementation of Kafka REST and Schema Registry. Versions 5.0.0 and 5.0.1 contain an authentication bypass vulnerability when configured to use OAuth 2.0 Bearer Token authentication. If a request is sent without an Authorization header, the token validation logic is skipped entirely, allowing an unauthenticated user to read and write to Schema Registry endpoints that should otherwise be protected. This effectively renders the OAuth authentication mechanism ineffective. This issue is fixed in version 5.0.2.",
+      "severity": "HIGH",
+      "score": 8.6
+    },
+    {
+      "id": "CVE-2025-61677",
+      "description": "DataChain is a Python-based AI-data warehouse for transforming and analyzing unstructured data. Versions 0.34.1 and below allow for deseriaization of untrusted data because of the way the DataChain library reads serialized objects from environment variables (such as DATACHAIN__METASTORE and DATACHAIN__WAREHOUSE) in the loader.py module. An attacker with the ability to set these environment variables can trigger code execution when the application loads. This issue is fixed in version 0.34.2.",
+      "severity": "LOW",
+      "score": 2.5
+    },
+    {
+      "id": "CVE-2025-61679",
+      "description": "Anyquery is an SQL query engine built on top of SQLite. Versions 0.4.3 and below allow attackers who have already gained access to localhost, even with low privileges, to use the http server through the port unauthenticated, and access private integration data like emails, without any warning of a foreign login from the provider. This issue is fixed in version 0.4.4.",
+      "severity": "HIGH",
+      "score": 7.7
+    },
+    {
+      "id": "CVE-2025-61680",
+      "description": "Minecraft RCON Terminal is a VS Code extension that streamlines Minecraft server management. Versions 0.1.0 through 2.0.6 stores passwords using VS Code's configuration API which writes to settings.json in plaintext. This issue is fixed in version 2.1.0.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61681",
+      "description": "KUNO CMS is a fully deployable full-stack blog application. Versions 1.3.13 and below contain validation flaws in its file upload functionality that can be exploited for stored XSS. The upload endpoint only validates file types based on Content-Type headers, lacks file content analysis and extension whitelist restrictions, allowing attackers to upload SVG files containing malicious scripts (disguised as images). When users access the uploaded resource pages, arbitrary JavaScript executes in their browsers. This issue is fixed in version 1.3.14.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-61685",
+      "description": "Mastra is a Typescript framework for building AI agents and assistants. Versions 0.13.8 through 0.13.20-alpha.0 are vulnerable to a Directory Traversal attack that results in the disclosure of directory listings. The code contains a security check to prevent path traversal for reading file contents, but this check is effectively bypassed by subsequent logic that attempts to find directory suggestions. An attacker can leverage this flaw to list the contents of arbitrary directories on the user's filesystem, including the user's home directory, exposing sensitive information about the file system's structure. This issue is fixed in version 0.13.20.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    }
   ]
 }
