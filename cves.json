@@ -4538,5 +4538,691 @@
       "severity": "HIGH",
       "score": 7.3
     }
+  ],
+  "2025-10-06": [
+    {
+      "id": "CVE-2025-11310",
+      "description": "A weakness has been identified in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. The affected element is the function findFileServerPage of the file findFileServerPage.do. Executing manipulation of the argument sort can lead to sql injection. It is possible to launch the attack remotely. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11311",
+      "description": "A security vulnerability has been detected in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. The impacted element is the function findTenantPage of the file findTenantPage.do. The manipulation of the argument sort leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11312",
+      "description": "A vulnerability was detected in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. This affects the function findModulePage of the file findModulePage.do. The manipulation of the argument sort results in sql injection. The attack can be launched remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11313",
+      "description": "A flaw has been found in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. This impacts the function findRolePage of the file findRolePage.do. This manipulation of the argument sort causes sql injection. The attack may be initiated remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11314",
+      "description": "A vulnerability has been found in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. Affected is the function findRolePage of the file findSingConfigPage.do. Such manipulation of the argument sort leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11315",
+      "description": "A vulnerability was found in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. Affected by this vulnerability is the function findUserPage of the file findUserPage.do. Performing manipulation of the argument sort results in sql injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-29192",
+      "description": "Flowise before 3.0.5 allows XSS via a FORM element and an INPUT element when an admin views the chat log.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-50538",
+      "description": "Flowise before 3.0.5 allows XSS via an IFRAME element when an admin views the chat log.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-11316",
+      "description": "A vulnerability was determined in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. Affected by this issue is the function findCategoryPage of the file findCategoryPage.do. Executing manipulation of the argument tenantId can lead to sql injection. The attack can be executed remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11317",
+      "description": "A vulnerability was identified in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. This affects the function findRolePage of the file findSingConfigPage.do. The manipulation of the argument sort leads to sql injection. The attack is possible to be carried out remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11318",
+      "description": "A security flaw has been discovered in Tipray \u53a6\u95e8\u5929\u9510\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8 Data Leakage Prevention System \u5929\u9510\u6570\u636e\u6cc4\u9732\u9632\u62a4\u7cfb\u7edf 1.0. This vulnerability affects unknown code of the file uploadWxFile.do. The manipulation of the argument File results in unrestricted upload. The attack may be performed from remote. The exploit has been released to the public and may be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11319",
+      "description": "A weakness has been identified in nahiduddinahammed Hospital-Management-System-Website up to e6562429e14b2f88bd2139cae16e87b965024097. This issue affects some unknown processing of the file /delete.php. This manipulation of the argument ai causes sql injection. It is possible to initiate the attack remotely. The exploit has been made available to the public and could be exploited. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-11320",
+      "description": "A security vulnerability has been detected in zhuimengshaonian wisdom-education up to 1.0.4. Impacted is the function uploadFile of the file src/main/java/com/education/core/controller/UploadController.java. Such manipulation of the argument File leads to unrestricted upload. It is possible to launch the attack remotely. The exploit has been disclosed publicly and may be used.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-11321",
+      "description": "A vulnerability was detected in zhuimengshaonian wisdom-education up to 1.0.4. The affected element is an unknown function of the file src/main/java/com/education/api/controller/student/WrongBookController.java. Performing manipulation of the argument subjectId results in authorization bypass. The attack can be initiated remotely. The exploit is now public and may be used.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-11322",
+      "description": "A flaw has been found in Mangati NovoSGA up to 2.2.12. The impacted element is an unknown function of the file /novosga.users/new of the component User Creation Page. Executing manipulation of the argument Senha/Confirma\u00e7\u00e3o da senha can lead to weak password requirements. The attack can be launched remotely. Attacks of this nature are highly complex. The exploitability is regarded as difficult. The exploit has been published and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.7
+    },
+    {
+      "id": "CVE-2025-11323",
+      "description": "A vulnerability was determined in UTT 1250GW up to v2v3.2.2-200710. Affected is the function strcpy of the file /goform/formUserStatusRemark. This manipulation of the argument Username causes buffer overflow. Remote exploitation of the attack is possible. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-57781",
+      "description": "The installers of DENSO TEN drive recorder viewer contain an issue with the DLL search path, which may lead to insecurely loading Dynamic Link Libraries. As a result, arbitrary code may be executed with the privilege of the user invoking the installer.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-9703",
+      "description": "The Ultimate Addons for Elementor (Formerly Elementor Header & Footer Builder) WordPress plugin before 2.5.0 does not sanitize SVG file contents when uploaded through the xmlrpc.php endpoint using base64 encode, leading to a Cross-Site Scripting vulnerability.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-9710",
+      "description": "The Responsive Lightbox & Gallery WordPress plugin before 2.5.3 does not properly handle HTML tag attributes modifications, potentially allowing unauthenticated attackers to abuse the functionality to include event handlers and conduct Stored XSS attacks.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-11324",
+      "description": "A vulnerability was identified in Tenda AC18 15.03.05.19(6318). Affected by this vulnerability is an unknown functionality of the file /goform/setNotUpgrade. Such manipulation of the argument newVersion leads to stack-based buffer overflow. The attack can be executed remotely. The exploit is publicly available and might be used.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11325",
+      "description": "A security flaw has been discovered in Tenda AC18 15.03.05.19(6318). Affected by this issue is some unknown functionality of the file /goform/fast_setting_pppoe_set. Performing a manipulation of the argument Username results in stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been released to the public and may be used for attacks.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-58578",
+      "description": "A user with the appropriate authorization can create any number of user accounts via an API  endpoint  using  a  POST  request.  There  are  no  quotas,  checking  mechanisms  or restrictions to limit the creation.",
+      "severity": "LOW",
+      "score": 3.8
+    },
+    {
+      "id": "CVE-2025-58579",
+      "description": "Due to a lack of authentication, it is possible for an unauthenticated user to request data from this endpoint, making the application vulnerable for user enumeration.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-58580",
+      "description": "An API  endpoint  allows  arbitrary  log  entries  to  be  created  via  POST request.  Without sufficient  validation  of the  input data, an attacker  can create manipulated log entries and thus falsify or dilute logs, for example.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-58581",
+      "description": "When an error occurs in the application a full stacktrace is  provided to the user. The stacktrace lists class and method names as well as other internal information. An attacker can thus obtain information about the technology used and the structure of the application.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-58582",
+      "description": "If a user tries to login but the provided credentials are incorrect a log is created. The data for this POST requests is not validated and it\u2019s possible to send giant payloads which are then logged.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-58583",
+      "description": "The  application  provides  access  to  a  login  protected  H2  database for  caching  purposes. The username is prefilled.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-58584",
+      "description": "In the HTTP request, the username and password are transferred directly in the URL as parameters. However, URLs can be stored in various systems such as server logs, browser histories or proxy servers. As a result, there is a high risk that this sensitive data will be disclosed unintentionally.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-58585",
+      "description": "Multiple endpoints with sensitive information do not require authentication, making the application susceptible to information gathering.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-58586",
+      "description": "For failed login attempts, the application returns different error messages depending on whether the login failed due to an incorrect password or a non-existing username. This allows an attacker to guess usernames until they find an existing one.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-58587",
+      "description": "The application does not implement sufficient measures to prevent multiple failed authentication attempts within a short time frame, making it possible for an attacker to guess user credentials.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-58589",
+      "description": "When an error occurs in the application a full stacktrace is provided to the user. The stacktrace lists class and method names as well as other internal information. An attacker thus receives information about the technology used and the structure of the application.",
+      "severity": "LOW",
+      "score": 2.7
+    },
+    {
+      "id": "CVE-2025-58590",
+      "description": "It's possible to brute force folders and files, what can be used by an attacker to steal sensitve information.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-58591",
+      "description": "A remote, unauthorized attacker can brute force folders and files and read them like private keys or configurations, making the application vulnerable for gathering sensitive information.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-9913",
+      "description": "JavaScript can be ran inside the address bar via the dashboard \"Open in new Tab\" Button, making the application vulnerable to session hijacking.",
+      "severity": "MEDIUM",
+      "score": 4.5
+    },
+    {
+      "id": "CVE-2025-9914",
+      "description": "The credentials of the users stored in the system's local database can be used for the log in, making it possible for an attacker to gain unauthorized access. This could potentially affect the confidentiality of the application.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-11326",
+      "description": "A weakness has been identified in Tenda AC18 15.03.05.19(6318). This affects an unknown part of the file /goform/WifiMacFilterSet. Executing a manipulation of the argument wifi_chkHz can lead to stack-based buffer overflow. The attack may be performed from remote. The exploit has been made available to the public and could be used for attacks.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11327",
+      "description": "A security vulnerability has been detected in Tenda AC18 15.03.05.19(6318). This vulnerability affects unknown code of the file /goform/SetUpnpCfg. The manipulation of the argument upnpEn leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-59728",
+      "description": "When calculating the content path in handling of MPEG-DASH manifests, there's an out-of-bounds NUL-byte write one byte past the end of the buffer.When we call xmlNodeGetContent\u00a0below [0], it returns a buffer precisely allocated to match the string length, using strdup\u00a0internally. If this buffer is not an empty string, it is assigned to root_url\u00a0at [1].If the last (non-NUL) byte in this buffer is not '/'\u00a0then we append '/'\u00a0in-place at [2]. This will write two bytes into the buffer, starting at the last valid byte in the buffer, writing the NUL byte beyond the end of the allocated buffer.\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59729",
+      "description": "When parsing the header for a DHAV file, there's an integer underflow in offset calculation that leads to reading the duration from before the start of the allocated buffer.\n\nIf we load a DHAV file that is larger than MAX_DURATION_BUFFER_SIZE\u00a0bytes (0x100000) for example 0x101000 bytes, then at [0] we have size = 0x101000. At [1] we have end_buffer_size = 0x100000, and at [2] we have end_buffer_pos = 0x1000.\n\nThe loop then scans backwards through the buffer looking for the dhav\u00a0tag; when it is found, we'll calculate end_pos\u00a0based on a 32-bit offset read from the buffer.\n\nThere is subsequently a check [3] that end_pos\u00a0is within the section of the file that has been copied into end_buffer, but it only correctly handles the cases where end_pos\u00a0is before the start of the file\u00a0or after the section copied into end_buffer, and not the case where end_pos\u00a0is within the the file, but before the section copied into end_buffer. If we provide such an offset, (end_pos - end_buffer_pos)\u00a0can underflow, resulting in the subsequent access at [4] occurring before the beginning of the allocation.\n\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59730",
+      "description": "When decoding a frame for a SANM file (ANIM v0 variant), the decoded data can be larger than the buffer allocated for it.\n\nFrames encoded with codec 48 can specify their resolution (width x height). A buffer of appropriate size is allocated depending on the resolution.\n\nThis codec can encode the frame contents using a run-length encoding algorithm. There are no checks that the decoded frame fits in the allocated buffer, leading to a heap-buffer-overflow.\n\nprocess_frame_obj\u00a0initializes the buffers based on the frame resolution:\n\n\n\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59731",
+      "description": "When decoding an OpenEXR file that uses DWAA or DWAB compression, the specified raw length of run-length-encoded data is not checked when using it to calculate the output data.\n\nWe read rle_raw_size\u00a0from the input file at [0], we decompress and decode into the buffer td->rle_raw_data\u00a0of size rle_raw_size\u00a0at [1], and then at [2] we will access entries in this buffer up to (td->xsize - 1) * (td->ysize - 1) + rle_raw_size / 2, which may exceed rle_raw_size.\n\n\n\n\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59732",
+      "description": "When decoding an OpenEXR file that uses DWAA or DWAB compression, there's an implicit assumption that the height and width are divisible by 8.\n\nIf the height or width of the image is not divisible by 8, the copy loops at [0] and [1] will continue to write until the next multiple of 8.\n\nThe buffer td->uncompressed_data\u00a0is allocated in decode_block\u00a0based on the precise height and width of the image, so the \"rounded-up\" multiple of 8 in the copy loop can exceed the buffer bounds, and the write block starting at [2] can corrupt following heap memory.\n\n\n\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59733",
+      "description": "When decoding an OpenEXR file that uses DWAA or DWAB compression, there's an implicit assumption that all image channels have the same pixel type (and size), and that if there are four channels, the first four are \"B\", \"G\", \"R\"\u00a0and \"A\". The channel parsing code can be found in decode_header.\u00a0The buffer td->uncompressed_data\u00a0is allocated in decode_block\u00a0based on the xsize, ysize\u00a0and computed current_channel_offset.\n\nThe function dwa_uncompress\u00a0then assumes at [5] that if there are 4 channels, these are \"B\", \"G\", \"R\"\u00a0and \"A\", and in the calculations at [6] and [7] that all channels are of the same type, which matches the type of the main color channels.\n\nIf we set the main color channels to a 4-byte type and add duplicate or unknown channels of the 2-byte EXR_HALF\u00a0type, then the addition at [7] will increment the pointer by 4-bytes * xsize * nb_channels, which will exceed the allocated buffer.\n\n\n\n\n\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-59734",
+      "description": "It is possible to cause an use-after-free write in SANM decoding with a carefully crafted animation using subversion <2.\n\nWhen a STOR\u00a0chunk is present, a subsequent FOBJ\u00a0chunk will be saved in ctx->stored_frame. Stored frames can later be referenced by FTCH\u00a0chunks. For files using subversion < 2, the undecoded frame is stored, and decoded again when the FTCH\u00a0chunks are parsed.\u00a0However, in process_frame_obj\u00a0if the frame has an invalid size, there\u2019s an early return, with a value of 0.\u00a0\n\nThis causes the code in decode_frame\u00a0to still store the raw frame buffer into ctx->stored_frame. Leaving ctx->has_dimensions\u00a0set to false.\n\nA subsequent chunk with type FTCH\u00a0would call process_ftch\u00a0and decode that frame obj again, adding to the top/left values and calling process_frame_obj\u00a0again.\nGiven that we never set ctx->have_dimensions\u00a0before, this time we set the dimensions, calling init_buffers, which can reallocate the buffer in ctx->stored_frame, freeing the previous one. However, the GetByteContext\u00a0object gb\u00a0still holds a reference to the old buffer.\n\n\n\n\nFinally, when the code tries to decode the frame, codecs that accept a GetByteContext\u00a0as a parameter will trigger a use-after-free read when using gb.\n\nGetByteContext\u00a0is only used for reading bytes, so at most one could read invalid data. There are no heap allocations between the free\u00a0and when the object is accessed. However, upon returning to process_ftch, the code restores\u00a0the original values for top/left in stored_frame, writing 4 bytes to the freed data at offset 6, potentially corrupting the allocator\u2019s metadata.\n\nThis issue can be triggered just by probing whether a file has the sanm format.\n\n\n\n\n\n\n\nWe recommend upgrading to version 8.0 or beyond.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-0606",
+      "description": "Authorization Bypass Through User-Controlled Key vulnerability in Logo Software Inc. Logo Cloud allows Forceful Browsing, Resource Leak Exposure.This issue affects Logo Cloud: before 0.67.",
+      "severity": "MEDIUM",
+      "score": 6.0
+    },
+    {
+      "id": "CVE-2025-11328",
+      "description": "A vulnerability was detected in Tenda AC18 15.03.05.19(6318). This issue affects some unknown processing of the file /goform/SetDDNSCfg. The manipulation of the argument ddnsEn results in stack-based buffer overflow. It is possible to launch the attack remotely. The exploit is now public and may be used.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11329",
+      "description": "A flaw has been found in code-projects Online Course Registration 1.0. Impacted is an unknown function of the file /admin/manage-students.php. This manipulation of the argument ID causes sql injection. The attack can be initiated remotely. The exploit has been published and may be used.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-0607",
+      "description": "Improper Encoding or Escaping of Output vulnerability in Logo Software Inc. Logo Cloud allows Phishing.This issue affects Logo Cloud: before 2.57.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-0608",
+      "description": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Logo Software Inc. Logo Cloud allows Phishing, Forceful Browsing.This issue affects Logo Cloud: before 2025.R6.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-0609",
+      "description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Logo Software Inc. Logo Cloud allows Cross-Site Scripting (XSS).This issue affects Logo Cloud: before 1.18.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-11330",
+      "description": "A vulnerability has been found in PHPGurukul Beauty Parlour Management System 1.1. The affected element is an unknown function of the file /admin/sales-reports-detail.php. Such manipulation of the argument fromdate/todate leads to sql injection. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-11331",
+      "description": "A vulnerability was found in IdeaCMS up to 1.8. The impacted element is an unknown function of the file app/common/logic/admin/Config.php of the component Website Name Handler. Performing manipulation of the argument \u7f51\u7ad9\u540d\u79f0 results in command injection. The attack may be initiated remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-11332",
+      "description": "A vulnerability was determined in CmsEasy up to 7.7.7. This affects an unknown function in the library lib/inc/view.php of the component URL Handler. Executing a manipulation of the argument PHP_SELF can lead to cross site scripting. The attack may be launched remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2025-11333",
+      "description": "A vulnerability was identified in langleyfcu Online Banking System up to 57437e6400ce0ae240e692c24e6346b8d0c17d7a. This impacts an unknown function of the file /customer_add_action.php of the component Add Customer Page. The manipulation of the argument First Name leads to cross site scripting. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided.",
+      "severity": "LOW",
+      "score": 2.4
+    },
+    {
+      "id": "CVE-2025-11334",
+      "description": "A security flaw has been discovered in Campcodes Online Apartment Visitor Management System 1.0. Affected is an unknown function of the file /visitor-detail.php. The manipulation of the argument editid results in sql injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-11335",
+      "description": "A weakness has been identified in D-Link DI-7100G C1 up to 20250928. Affected by this vulnerability is the function sub_46409C of the file /msp_info.htm?flag=qos of the component jhttpd. This manipulation of the argument iface causes command injection. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be exploited.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-11336",
+      "description": "A security vulnerability has been detected in Four-Faith Water Conservancy Informatization Platform up to 2.2. Affected by this issue is some unknown functionality of the file /stAlarmConfigure/index.do/../../aloneReport/download.do;otherlogout.do. Such manipulation of the argument fileName leads to path traversal. The attack may be performed from remote. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-11337",
+      "description": "A vulnerability was detected in Four-Faith Water Conservancy Informatization Platform up to 2.2. This affects an unknown part of the file /aloneReport/index.do/../../aloneReport/download.do;othersusrlogout.do. Performing manipulation of the argument fileName results in path traversal. It is possible to initiate the attack remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-61197",
+      "description": "An issue in Orban Optimod 5950, Optimod 5950HD, Optimod 5750, Optimod 5750HD, Optimod Trio Optimod version 1.0.0.33 - System version 2.5.26 allows a remote attacker to escalate privileges via the application stores user privilege/role information in client-side browser storage",
+      "severity": "HIGH",
+      "score": 8.9
+    },
+    {
+      "id": "CVE-2025-61198",
+      "description": "A stored cross-site scripting (XSS) vulnerability in Optimod 5950 - Optimod 5950HD - Optimod 5750 - Optimod 5750HD - Optimod Trio - Optimod version 1.0.0.33 - System version 2.5.26, allows remote attackers to execute arbitrary JavaScript in the web browser of a user, by including a malicious payload into the logs which would be returned in logs rendered in the UI.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2023-49886",
+      "description": "IBM Standards Processing Engine 10.0.1.10 could allow a remote attacker to execute arbitrary code on the system, caused by an unsafe java deserialization. By sending specially crafted input, an attacker could exploit this vulnerability to execute arbitrary code on the system.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-49594",
+      "description": "XWiki OIDC has various tools to manipulate OpenID Connect protocol in XWiki. Starting in version 2.17.1 and prior to version 2.18.2, anyone with VIEW access to a user profile can create a token for that user. If that XWiki instance is configured to allow token authentication, it allows authentication with any user (since users are very commonly viewable, at least to other registered users). Version 2.18.2 contains a patch. As a workaround, disable token access.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-52472",
+      "description": "XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Starting in version 4.3-milestone-1 and prior to versions 16.10.9, 17.4.2, and 17.5.0, the REST search URL is vulnerable to HQL injection via the `orderField` parameter. The specified value is added twice in the query, though, once in the field list for the select and once in the order clause, so it's not that easy to exploit. The part of the query between the two fields can be enclosed in single quotes to effectively remove them, but the query still needs to remain valid with the query two times in it. This has been patched in versions 17.5.0, 17.4.2, and 16.10.9. No known workarounds are available.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-11338",
+      "description": "A flaw has been found in D-Link DI-7100G C1 up to 20250928. This vulnerability affects the function sub_4C0990 of the file /webchat/login.cgi of the component jhttpd. Executing manipulation of the argument openid can lead to buffer overflow. It is possible to launch the attack remotely. The exploit has been published and may be used.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-59152",
+      "description": "Litestar is an Asynchronous Server Gateway Interface (ASGI) framework. In version 2.17.0, rate limits can be completely bypassed by manipulating the X-Forwarded-For header. This renders IP-based rate limiting ineffective against determined attackers. Litestar's RateLimitMiddleware uses `cache_key_from_request()` to generate cache keys for rate limiting. When an X-Forwarded-For header is present, the middleware trusts it unconditionally and uses its value as part of the client identifier. Since clients can set arbitrary X-Forwarded-For values, each different spoofed IP creates a separate rate limit bucket. An attacker can rotate through different header values to avoid hitting any single bucket's limit. This affects any Litestar application using RateLimitMiddleware with default settings, which likely includes most applications that implement rate limiting. Version 2.18.0 contains a patch for the vulnerability.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-59159",
+      "description": "SillyTavern is a locally installed user interface that allows users to interact with text generation large language models, image generation engines, and text-to-speech voice models. In versions prior to 1.13.4, the web user interface for SillyTavern is susceptible to DNS rebinding, allowing attackers to perform actions like install malicious extensions, read chats, inject arbitrary HTML for phishing attacks, etc. The vulnerability has been patched in the version 1.13.4 by introducing a server configuration setting that enables a validation of host names in inbound HTTP requests according to the provided list of allowed hosts: `hostWhitelist.enabled` in config.yaml file or `SILLYTAVERN_HOSTWHITELIST_ENABLED` environment variable. While the setting is disabled by default to honor a wide variety of existing user configurations and maintain backwards compatibility, existing and new users are encouraged to review their server configurations and apply necessary changes to their setup, especially if hosting over the local network while not using SSL.",
+      "severity": "CRITICAL",
+      "score": 9.6
+    },
+    {
+      "id": "CVE-2025-61224",
+      "description": "Cross Site Scripting vulnerability in DokuWiki 2025-05-14a 'Librarian'[56.1] allows a remote attacker to execute arbitrary code via the q parameter",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-61687",
+      "description": "Flowise is a drag & drop user interface to build a customized large language model flow. A file upload vulnerability in version 3.0.7 of FlowiseAI allows authenticated users to upload arbitrary files without proper validation. This enables attackers to persistently store malicious Node.js web shells on the server, potentially leading to Remote Code Execution (RCE). The system fails to validate file extensions, MIME types, or file content during uploads. As a result, malicious scripts such as Node.js-based web shells can be uploaded and stored persistently on the server. These shells expose HTTP endpoints capable of executing arbitrary commands if triggered. The uploaded shell does not automatically execute, but its presence allows future exploitation via administrator error or chained vulnerabilities. This presents a high-severity threat to system integrity and confidentiality. As of time of publication, no known patched versions are available.",
+      "severity": "HIGH",
+      "score": 8.3
+    },
+    {
+      "id": "CVE-2025-61765",
+      "description": "python-socketio is a Python implementation of the Socket.IO realtime client and server. A remote code execution vulnerability in python-socketio versions prior to 5.14.0 allows attackers to execute arbitrary Python code through malicious pickle deserialization in multi-server deployments on which the attacker previously gained access to the message queue that the servers use for internal communications. When Socket.IO servers are configured to use a message queue backend such as Redis for inter-server communication, messages sent between the servers are encoded using the `pickle` Python module. When a server receives one of these messages through the message queue, it assumes it is trusted and immediately deserializes it. The vulnerability stems from deserialization of messages using Python's `pickle.loads()` function. Having previously obtained access to the message queue, the attacker can send a python-socketio server a crafted pickle payload that executes arbitrary code during deserialization via Python's `__reduce__` method. This vulnerability only affects deployments with a compromised message queue. The attack can lead to the attacker executing random code in the context of, and with the privileges of a Socket.IO server process. Single-server systems that do not use a message queue, and multi-server systems with a secure message queue are not vulnerable. In addition to making sure standard security practices are followed in the deployment of the message queue, users of the python-socketio package can upgrade to version 5.14.0 or newer, which remove the `pickle` module and use the much safer JSON encoding for inter-server messaging.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-0038",
+      "description": "In AMD Zynq UltraScale+ devices, the lack of address validation when executing CSU runtime services through the PMU Firmware can allow access to isolated or protected memory spaces resulting in the loss of integrity and confidentiality.",
+      "severity": "MEDIUM",
+      "score": 6.6
+    },
+    {
+      "id": "CVE-2025-10363",
+      "description": "Deserialization of Untrusted Data vulnerability in Topal Solutions AG Topal Finanzbuchhaltung on Windows allows Remote Code Execution.This issue affects at least Topal Finanzbuchhaltung: 10.1.5.20 and is fixed in version 11.2.12.00",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-11339",
+      "description": "A vulnerability has been found in D-Link DI-7100G C1 up to 20250928. This issue affects the function sub_4BD4F8 of the file /webchat/hi_block.asp of the component jhttpd. The manipulation of the argument popupId leads to buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11341",
+      "description": "A security flaw has been discovered in Jinher OA up to 2.0. This affects an unknown function of the file /c6/Jhsoft.Web.module/eformaspx/WebDesign.aspx/?type=SystemUserInfo&style=1. Performing manipulation results in xml external entity reference. Remote exploitation of the attack is possible. The exploit has been released to the public and may be exploited.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-36354",
+      "description": "IBM Security Verify Access and IBM Security Verify Access Docker 10.0.0.0 through 10.0.9.0 and 11.0.0.0 through 11.0.1.0 \n\n\n\ncould allow an unauthenticated user to execute arbitrary commands with lower user privileges on the system due to improper validation of user supplied input.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-36355",
+      "description": "IBM Security Verify Access and IBM Security Verify Access Docker 10.0.0.0 through 10.0.9.0 and 11.0.0.0 through 11.0.1.0 \n\ncould allow a locally authenticated user to execute malicious scripts from outside of its control sphere.",
+      "severity": "HIGH",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2025-36356",
+      "description": "IBM Security Verify Access and IBM Security Verify Access Docker 10.0.0.0 through 10.0.9.0 and 11.0.0.0 through 11.0.1.0 could allow a locally authenticated user to escalate their privileges to root due to execution with more privileges than required.",
+      "severity": "CRITICAL",
+      "score": 9.3
+    },
+    {
+      "id": "CVE-2025-57247",
+      "description": "The BATBToken smart contract (address 0xfbf1388408670c02f0dbbb74251d8ded1d63b7a2, Compiler Version v0.8.26+commit.8a97fa7a) contains incorrect access control implementation in whitelist management functions. The setColdWhiteList() and setSpecialAddress() functions in the base ERC20 contract are declared as public without proper access control modifiers, allowing any user to bypass transfer restrictions and manipulate special address settings. This enables unauthorized users to circumvent cold time transfer restrictions and potentially disrupt dividend distribution mechanisms, leading to privilege escalation and violation of the contract's intended tokenomics.",
+      "severity": "CRITICAL",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-60956",
+      "description": "Cross Site Request Forgery (CSRF) vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to execute arbitrary code, cause a denial of service, gain escalated privileges, and gain sensitive information.",
+      "severity": "HIGH",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2025-60957",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to execute arbitrary code, cause a denial of service, gain escalated privileges, and gain sensitive information.",
+      "severity": "CRITICAL",
+      "score": 9.9
+    },
+    {
+      "id": "CVE-2025-60958",
+      "description": "Cross Site Scripting (XSS) vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to gain sensitive information.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-60959",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to gain sensitive information.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-60960",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to execute arbitrary code, cause a denial of service, gain escalated privileges, and gain sensitive information.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-60961",
+      "description": "Cross Site Scripting (XSS) vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to gain sensitive information, and possibly other unspecified impacts.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60962",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to gain sensitive information, and possibly other unspecified impacts.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-60963",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to execute arbitrary code, cause a denial of service, gain escalated privileges, and gain sensitive information.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-60964",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to execute arbitrary code, cause a denial of service, gain escalated privileges, gain sensitive information, and possibly other unspecified impacts.",
+      "severity": "CRITICAL",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-60965",
+      "description": "OS Command Injection vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0071-000 Ver 4.00 allows attackers to execute arbitrary code, cause a denial of service, gain escalated privileges, gain sensitive information, and possibly other unspecified impacts.",
+      "severity": "CRITICAL",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-60967",
+      "description": "Cross Site Scripting (XSS) vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0076-000 Ver 4.00 allows attackers to gain sensitive information.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-60969",
+      "description": "Directory Traversal vulnerability in EndRun Technologies Sonoma D12 Network Time Server (GPS) F/W 6010-0076-000 Ver 4.00 allows attackers to gain sensitive information.",
+      "severity": "MEDIUM",
+      "score": 5.7
+    },
+    {
+      "id": "CVE-2025-61766",
+      "description": "Bucket is a MediaWiki extension to store and retrieve structured data on articles. Prior to version 1.0.0, infinite recursion can occur if a user queries a bucket using the `!=` comparator. This will result in PHP's call stack limit exceeding, and/or increased memory consumption, potentially leading to a denial of service. Version 1.0.0 contains a patch for the issue.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-61769",
+      "description": "Emlog is an open source website building system. A cross-site scripting (XSS) vulnerability in emlog up to and including version 2.5.22 allows authenticated remote attackers to inject arbitrary web script or HTML via the file upload functionality. As an authenticated user it is possible to upload .svg file that contains JavaScript code that is later being executed. Commit 052f9c4226b2c0014bcd857fec47677340b185b1 fixes the issue.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-61777",
+      "description": "Flag Forge is a Capture The Flag (CTF) platform. Starting in version 2.0.0 and prior to version 2.3.2, the `/api/admin/badge-templates` (GET) and `/api/admin/badge-templates/create` (POST) endpoints previously allowed access without authentication or authorization. This could have enabled unauthorized users to retrieve all badge templates and sensitive metadata (createdBy, createdAt, updatedAt) and/or create arbitrary badge templates in the database. This could lead to data exposure, database pollution, or abuse of the badge system. The issue has been fixed in FlagForge v2.3.2. GET, POST, UPDATE, and DELETE endpoints now require authentication. Authorization checks ensure only admins can access and modify badge templates. No reliable workarounds are available.",
+      "severity": "CRITICAL",
+      "score": 9.4
+    },
+    {
+      "id": "CVE-2025-61778",
+      "description": "Akka.NET is a .NET port of the Akka project from the Scala / Java community. In all versions of Akka.Remote from v1.2.0 to v1.5.51, TLS could be enabled via our `akka.remote.dot-netty.tcp` transport and this would correctly enforce private key validation on the server-side of inbound connections. Akka.Remote, however, never asked the outbound-connecting client to present ITS certificate - therefore it's possible for untrusted parties to connect to a private key'd Akka.NET cluster and begin communicating with it without any certificate. The issue here is that for certificate-based authentication to work properly, ensuring that all members of the Akka.Remote network are secured with the same private key, Akka.Remote needed to implement mutual TLS. This was not the case before Akka.NET v1.5.52. Those who run Akka.NET inside a private network that they fully control or who were never using TLS in the first place are now affected by the bug. However, those who use TLS to secure their networks must upgrade to Akka.NET V1.5.52 or later. One patch forces \"fail fast\" semantics if TLS is enabled but the private key is missing or invalid. Previous versions would only check that once connection attempts occurred. The second patch, a critical fix, enforces mutual TLS (mTLS) by default, so both parties must be keyed using the same certificate. As a workaround, avoid exposing the application publicly to avoid the vulnerability having a practical impact on one's application. However, upgrading to version 1.5.52 is still recommended by the maintainers.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-11342",
+      "description": "A weakness has been identified in code-projects Online Course Registration 1.0. This impacts an unknown function of the file /admin/edit-course.php. Executing manipulation of the argument coursecode can lead to sql injection. The attack can be executed remotely. The exploit has been made available to the public and could be exploited.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-11343",
+      "description": "A security vulnerability has been detected in code-projects Student Crud Operation 3.3. Affected is an unknown function of the file delete.php. The manipulation of the argument ID leads to sql injection. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-28129",
+      "description": "Phpgurukul Hostel Management System 2.1 is vulnerable to clickjacking.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-56382",
+      "description": "A stored Cross-site scripting (XSS) vulnerability exists in the Customer Management Module of LionCoders SalePro POS 5.4.8. An authenticated attacker can inject arbitrary web script or HTML via the 'Customer Name' parameter when creating or editing customer profiles. This malicious input is improperly sanitized before storage and subsequent rendering, leading to script execution in the browsers of users who view the affected customer details.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-57515",
+      "description": "A SQL injection vulnerability has been identified in Uniclare Student Portal v2. This flaw allows remote attackers to inject arbitrary SQL commands via vulnerable input fields, enabling the execution of time-delay functions to infer database responses.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-6985",
+      "description": "The HTMLSectionSplitter class in langchain-text-splitters version 0.3.8 is vulnerable to XML External Entity (XXE) attacks due to unsafe XSLT parsing. This vulnerability arises because the class allows the use of arbitrary XSLT stylesheets, which are parsed using lxml.etree.parse() and lxml.etree.XSLT() without any hardening measures. In lxml versions up to 4.9.x, external entities are resolved by default, allowing attackers to read arbitrary local files or perform outbound HTTP(S) fetches. In lxml versions 5.0 and above, while entity expansion is disabled, the XSLT document() function can still read any URI unless XSLTAccessControl is applied. This vulnerability allows remote attackers to gain read-only access to any file the LangChain process can reach, including sensitive files such as SSH keys, environment files, source code, or cloud metadata. No authentication, special privileges, or user interaction are required, and the issue is exploitable in default deployments that enable custom XSLT.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-11344",
+      "description": "A vulnerability was detected in ILIAS up to 8.23/9.13/10.1. Affected by this vulnerability is an unknown functionality of the component Certificate Import Handler. The manipulation results in Remote Code Execution. The attack may be performed from remote. Upgrading to version 8.24, 9.14 and 10.2 addresses this issue. It is recommended to upgrade the affected component.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-11345",
+      "description": "A flaw has been found in ILIAS up to 8.23/9.13/10.1. Affected by this issue is the function unserialize of the component Test Import. This manipulation causes deserialization. It is possible to initiate the attack remotely. Upgrading to version 8.24, 9.14 and 10.2 can resolve this issue. Upgrading the affected component is advised.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-61984",
+      "description": "ssh in OpenSSH before 10.1 allows control characters in usernames that originate from certain possibly untrusted sources, potentially leading to code execution when a ProxyCommand is used. The untrusted sources are the command line and %-sequence expansion of a configuration file. (A configuration file that provides a complete literal username is not categorized as an untrusted source.)",
+      "severity": "LOW",
+      "score": 3.6
+    },
+    {
+      "id": "CVE-2025-61985",
+      "description": "ssh in OpenSSH before 10.1 allows the '\\0' character in an ssh:// URI, potentially leading to code execution when a ProxyCommand is used.",
+      "severity": "LOW",
+      "score": 3.6
+    },
+    {
+      "id": "CVE-2025-11346",
+      "description": "A vulnerability has been found in ILIAS up to 8.23/9.13/10.1. This affects the function unserialize of the component Base64 Decoding Handler. Such manipulation of the argument f_settings leads to deserialization. It is possible to launch the attack remotely. Upgrading to version 8.24, 9.14 and 10.2 is able to mitigate this issue. It is advisable to upgrade the affected component.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-59447",
+      "description": "The YoSmart YoLink Smart Hub device 0382 exposes a UART debug interface. An attacker with direct physical access can leverage this interface to read a boot log, which includes network access credentials.",
+      "severity": "LOW",
+      "score": 2.2
+    },
+    {
+      "id": "CVE-2025-59448",
+      "description": "Components of the YoSmart YoLink ecosystem through 2025-10-02 leverage unencrypted MQTT to communicate over the internet. An attacker with the ability to monitor network traffic could therefore obtain sensitive information or tamper with the traffic to control affected devices. This affects YoLink Hub 0382, YoLink Mobile Application 1.40.41, and YoLink MQTT Broker. NOTE: The vendor states that the vulnerability described (related to insecure transmission) only impacts the legacy mobile application logic, not the Hub hardware or firmware. The Hub functions solely as a pass-through (transparent gateway) for LoRa wireless data and does not inspect or process the application layer data.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-59449",
+      "description": "The YoSmart YoLink MQTT broker through 2025-10-02 does not enforce sufficient authorization controls to prevent cross-account attacks, allowing an attacker to remotely operate affected devices if the attacker obtains the associated device IDs. Because YoLink device IDs are predictable, an attacker can exploit this to gain full control over any other YoLink user's devices.",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-59450",
+      "description": "The YoSmart YoLink Smart Hub firmware 0382 is unencrypted, and data extracted from it can be used to determine network access credentials.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-59451",
+      "description": "The YoSmart YoLink application through 2025-10-02 has session tokens with unexpectedly long lifetimes.",
+      "severity": "LOW",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2025-59452",
+      "description": "The YoSmart YoLink API through 2025-10-02 uses an endpoint URL that is derived from a device's MAC address along with an MD5 hash of non-secret information, such as a key that begins with cf50.",
+      "severity": "MEDIUM",
+      "score": 5.8
+    },
+    {
+      "id": "CVE-2025-43824",
+      "description": "The Profile widget in Liferay Portal 7.4.0 through 7.4.3.111, and older unsupported versions, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.8, 7.4 GA through update 92, and older unsupported versions uses a user\u2019s name in the \u201cContent-Disposition\u201d header, which allows remote authenticated users to change the file extension when a vCard file is downloaded.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-61768",
+      "description": "KUNO CMS is a fully deployable full-stack blog application. In versions prior to 1.3.15, an SSRF (Server-Side Request Forgery) vulnerability exists in the Media module of the Kuno CMS administrative panel. A logged-in administrator can upload a specially crafted SVG file containing an external image reference, causing the server to initiate an outgoing connection to an arbitrary external URL. This can lead to information disclosure or internal network probing. Version 1.3.15 contains a fix for the issue.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-61774",
+      "description": "PyVista provides 3D plotting and mesh analysis through an interface for the Visualization Toolkit (VTK). Version 0.46.3 of the PyVista Project is vulnerable to remote code execution via dependency confusion. Two pieces of code use`--extra-index-url`. But when `--extra-index-url` is used, pip always checks for the PyPI index first, and then the external index. One package listed in the code is not published in PyPI. If an attacker publishes a package with higher version in PyPI, the malicious code from the attacker controlled package may be pulled, leading to remote code execution and a supply chain attack. As of time of publication, a patched version is unavailable.",
+      "severity": null,
+      "score": null
+    }
   ]
 }
