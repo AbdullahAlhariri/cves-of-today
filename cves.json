@@ -19128,5 +19128,655 @@
       "severity": "MEDIUM",
       "score": 5.9
     }
+  ],
+  "2025-10-23": [
+    {
+      "id": "CVE-2025-11575",
+      "description": "Incorrect Default Permissions vulnerability in MongoDB Atlas SQL ODBC driver on Windows allows Privilege Escalation.This issue affects MongoDB Atlas SQL ODBC driver: from 1.0.0 through 2.0.0.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-62804",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62805",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62806",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62807",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62808",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62809",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62810",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62811",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62812",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-12104",
+      "description": "Outdated and Vulnerable UI Dependencies might potentially lead to exploitation.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-35981",
+      "description": "Exposure of Private Personal Information to an Unauthorized Actor (CWE-359) in the Command Centre Server allows a privileged Operator to view limited personal data about a Cardholder they would not normally have permissions to view. \n\nThis issue affects Command Centre Server: 9.30.1874 (MR1), 9.20.2337 (MR3), 9.10.3194 (MR6).",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-41402",
+      "description": "Client-Side Enforcement of Server-Side Security (CWE-602) in the Command Centre Server allows a privileged operator to enter invalid competency data, bypassing expiry checks. \n\nThis issue affects Command Centre Server: \n\n\u00a09.30 prior to vEL9.30.2482 (MR2), 9.20 prior to vEL9.20.2819 (MR4), 9.10 prior to vEL9.10.3672 (MR7), all versions of 9.00 and prior.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-47699",
+      "description": "Exposure of Sensitive System Information to an Unauthorized Control Sphere (CWE-497) in the Gallagher Morpho integration could allow an authenticated operator with limited site permissions to make critical changes to local Morpho devices. \n\nThis issue affects Command Centre Server:\n\n9.30 prior to vEL9.30.2482 (MR2), 9.20 prior to vEL9.20.2819 (MR4), 9.10 prior to vEL9.10.3672 (MR7), 9.00 prior to vEL9.00.3831 (MR8), all versions of 8.90 and prior.",
+      "severity": "CRITICAL",
+      "score": 9.9
+    },
+    {
+      "id": "CVE-2025-48428",
+      "description": "Cleartext Storage of Sensitive Information (CWE-312) in the Gallagher Morpho integration could allow an authenticated user with access to the Command Centre Server to export a specific signing key while in use allowing them to deploy a compromised or counterfeit device on that site. \nThis issue affects Command Centre Server: 9.20 prior to vEL9.20.2819 (MR4), 9.10 prior to vEL9.10.3672 (MR7), 9.00 prior to vEL9.00.3831 (MR8), all versions of 8.90 and prior.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-48430",
+      "description": "Uncaught Exception (CWE-248) in the Command Centre Server allows an Authorized and Privileged Operator to crash the Command Centre Server at will.\n\nThis issue affects Command Centre Server: \n\n9.30 prior to vEL9.30.2482 (MR2), 9.20 prior to vEL9.20.2819 (MR4), 9.10 prior to vEL9.10.3672 (MR7), 9.00 prior to vEL9.00.3831 (MR8), all versions of 8.90 and prior.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-62813",
+      "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62820",
+      "description": "Slack Nebula before 1.9.7 mishandles CIDR in some configurations and thus accepts arbitrary source IP addresses within the Nebula network.",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-54806",
+      "description": "GROWI v4.2.7 and earlier contains a cross-site scripting vulnerability  in the page alert function. If a user accesses a crafted URL while logged in to the affected product, an arbitrary script may be executed on the user's web browser.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-54856",
+      "description": "Movable Type contains a stored cross-site scripting vulnerability in Edit ContentData page. If crafted input is stored by an attacker with \"ContentType Management\" privilege, an arbitrary script may be executed on the web browser of the user who accesses Edit ContentData page.",
+      "severity": "MEDIUM",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2025-61865",
+      "description": "Multiple NAS management applications provided by I-O DATA DEVICE, INC. register Windows services with unquoted file paths. A user with the write permission on the root directory of the system drive may execute arbitrary code with SYSTEM privilege.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-62499",
+      "description": "Movable Type contains a stored cross-site scripting vulnerability in Edit CategorySet of ContentType page. If crafted input is stored by an attacker with \"ContentType Management\" privilege, an arbitrary script may be executed on the web browser of the user who accesses Edit CategorySet of ContentType page.",
+      "severity": "MEDIUM",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2025-10727",
+      "description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in ArkSigner Software and Hardware Inc. AcBakImzala allows Reflected XSS.This issue affects AcBakImzala: before v5.1.4.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-10914",
+      "description": "Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Proliz Software Ltd. Co. OBS (Student Affairs Information System) allows Reflected XSS.This issue affects OBS (Student Affairs Information System): before V26.0401.",
+      "severity": "HIGH",
+      "score": 7.6
+    },
+    {
+      "id": "CVE-2025-12105",
+      "description": "A flaw was found in the asynchronous message queue handling of the libsoup library, widely used by GNOME and WebKit-based applications to manage HTTP/2 communications. When network operations are aborted at specific timing intervals, an internal message queue item may be freed twice due to missing state synchronization. This leads to a use-after-free memory access, potentially crashing the affected application. Attackers could exploit this behavior remotely by triggering specific HTTP/2 read and cancel sequences, resulting in a denial-of-service condition.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-9980",
+      "description": "QuickCMS is vulnerable to multiple Stored XSS in page editor functionality (pages-form). Malicious attacker with admin privileges can inject arbitrary HTML and JS into website, which will be rendered/executed when visiting edited page. By default admin user is not able to add JavaScript into the website.\n\nThe vendor was notified early about this vulnerability, but didn't respond with the details of vulnerability or vulnerable version range. Only version 6.8 was tested and confirmed as vulnerable, other versions were not tested and might also be vulnerable.",
+      "severity": "MEDIUM",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2025-9981",
+      "description": "QuickCMS is vulnerable to multiple Stored XSS in slider editor functionality (sliders-form). Malicious attacker with admin privileges can inject arbitrary HTML and JS into website, which will be rendered/executed on every page. By default admin user is not able to add JavaScript into the website.\n\nThe vendor was notified early about this vulnerability, but didn't respond with the details of vulnerability or vulnerable version range. Only version 6.8 was tested and confirmed as vulnerable, other versions were not tested and might also be vulnerable.",
+      "severity": "MEDIUM",
+      "score": 4.8
+    },
+    {
+      "id": "CVE-2025-40643",
+      "description": "Stored Cross-Site Scripting (XSS) vulnerability in Energy CRM v2025 by Status Tracker Ltd, consisting of a stored XSS due to lack of proper validation of user input by sending a POST request to \u201c/crm/create_job_submit.php\u201d, using the \u201cJobCreatedBy\u201d parameter. This vulnerability could allow a remote user to send a specially crafted query to an authenticated user and steal their cookie session details.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-41073",
+      "description": "Path Traversal vulnerability in version 4.4.2236.1 of TESI Gandia Integra Total. This issue allows an authenticated attacker to download a ZIP file containing files from the server, including those located in parent directories (e.g., ..\\..\\..), by exploiting the \u201cdirestudio\u201d parameter in \u201c/encuestas/integraweb[_v4]/integra/html/view/comprimir.php\u201d.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2024-14011",
+      "description": "Rejected reason: This is a duplicate.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-10355",
+      "description": "Open redirection vulnerability in MOLGENIS EMX2 v11.14.0. This vulnerability allows an attacker to create a malicious URL using a manipulated redirection parameter, potentially leading users to phishing sites or other malicious destinations via \u201c/%2f%2f<MALICIOUS_DOMAIN>\u201d.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62393",
+      "description": "A flaw was found in the course overview output function where user access permissions were not fully enforced. This could allow unauthorized users to view information about courses they should not have access to, potentially exposing limited course details.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-62394",
+      "description": "Moodle failed to verify enrolment status correctly when sending quiz notifications. As a result, suspended or inactive users might receive quiz-related messages, leaking limited course information.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-62395",
+      "description": "A flaw in the cohort search web service allowed users with permissions in lower contexts to access cohort information from the system context, revealing restricted administrative data.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-62396",
+      "description": "An error-handling issue in the Moodle router (r.php) could cause the application to display internal directory listings when specific HTTP headers were not properly configured.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-62397",
+      "description": "The router\u2019s inconsistent response to invalid course IDs allowed attackers to infer which course IDs exist, potentially aiding reconnaissance.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-62398",
+      "description": "A serious authentication flaw allowed attackers with valid credentials to bypass multi-factor authentication under certain conditions, potentially compromising user accounts.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-62399",
+      "description": "Moodle\u2019s mobile and web service authentication endpoints did not sufficiently restrict repeated password attempts, making them susceptible to brute-force attacks.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-62400",
+      "description": "Moodle exposed the names of hidden groups to users who had permission to create calendar events but not to view hidden groups. This could reveal private or restricted group information.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-62401",
+      "description": "An issue in Moodle\u2019s timed assignment feature allowed students to bypass the time restriction, potentially giving them more time than allowed to complete an assessment.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-10705",
+      "description": "The MxChat \u2013 AI Chatbot for WordPress plugin for WordPress is vulnerable to Blind Server-Side Request Forgery in all versions up to, and including, 2.4.6. This is due to insufficient validation of user-supplied URLs in the PDF processing functionality. This makes it possible for unauthenticated attackers to make the WordPress server perform HTTP requests to arbitrary destinations via the mxchat_handle_chat_request AJAX action.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-11023",
+      "description": "Inclusion of Functionality from Untrusted Control Sphere, Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ArkSigner Software and Hardware Inc. AcBakImzala allows PHP Local File Inclusion.This issue affects AcBakImzala: before v5.1.4.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-11128",
+      "description": "The RSS Aggregator by Feedzy \u2013 Feed to Post, Autoblogging, News & YouTube Video Feeds Aggregator plugin for WordPress is vulnerable to Server-Side Request Forgery in all versions up to, and including, 5.1.0 via the 'feedzy_sanitize_feeds' function. This makes it possible for authenticated attackers, with Subscriber-level access and above, to make web requests to arbitrary locations originating from the web application and can be used to query information from internal services.",
+      "severity": "MEDIUM",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2025-8427",
+      "description": "The Beaver Builder Plugin (Starter Version) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018auto_play\u2019 parameter in all versions up to, and including, 2.9.2.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-11429",
+      "description": "A flaw was found in Keycloak. Keycloak does not immediately enforce the disabling of the \"Remember Me\" realm setting on existing user sessions. Sessions created while \"Remember Me\" was active retain their extended session lifetime until they expire, overriding the administrator's recent security configuration change. This is a logic flaw in session management increases the potential window for successful session hijacking or unauthorized long-term access persistence. The flaw lies in the session expiration logic relying on the session-local \"remember-me\" flag without validating the current realm-level configuration.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-1679",
+      "description": "Cross-site Scripting has been identified in Moxa\u2019s Ethernet switches, which allows an authenticated administrative attacker to inject malicious scripts to an affected device\u2019s web service that could impact authenticated users interacting with the device\u2019s web interface. This vulnerability is classified as stored cross-site scripting (XSS); attackers inject malicious scripts into the system, and the scripts persist across sessions. There is no impact to the confidentiality, integrity, and availability of the affected device; no loss of availability within any subsequent systems but has some loss of confidentiality and integrity within the subsequent system.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-1680",
+      "description": "An acceptance of extraneous untrusted data with trusted data vulnerability has been identified in Moxa\u2019s Ethernet switches, which allows attackers with administrative privileges to manipulate HTTP Host headers by injecting a specially crafted Host header into HTTP requests sent to an affected device\u2019s web service. This vulnerability is classified as Host Header Injection, where invalid Host headers can manipulate to redirect users, forge links, or phishing attacks. There is no impact to the confidentiality, integrity, and availability of the affected device; no loss of confidentiality, integrity, and availability within any subsequent systems.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-53701",
+      "description": "Vilar VS-IPC1002 IP cameras are vulnerable to Reflected XSS (Cross-site Scripting) attacks, because parameters in GET requests sent to /cgi-bin/action endpoint are not sanitized properly, making it possible to target logged in admin users.\nThe vendor did not respond in any way. Only version 1.1.0.18 was tested, other versions might be vulnerable as well.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-53702",
+      "description": "Vilar VS-IPC1002 IP cameras are vulnerable to DoS (Denial-of-Service) attacks. An unauthenticated attacker on the same local network might send a crafted request to\u00a0/cgi-bin/action endpoint and render the device completely unresponsive. A manual restart of the device is required.\u00a0\nThe vendor did not respond in any way. Only version 1.1.0.18 was tested, other versions might be vulnerable as well.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-60852",
+      "description": "A CSV Injection vulnerability existed in Instant Developer Foundation versions prior to 25.0.9600. Applications built with affected versions of the framework did not properly sanitize user-controlled input before including it in CSV exports. This issue could lead to code execution on the system where the exported CSV file is opened.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-62256",
+      "description": "Liferay Portal 7.4.0 through 7.4.3.109, and Liferay DXP 2023.Q4.0 through 2023.Q4.5, 2023.Q3.1 through 2023.Q3.7, 7.4 GA through update 92, 7.3 GA through update 35, and older unsupported versions  does not properly restrict access to OpenAPI in certain circumstances, which allows remote attackers to access the OpenAPI YAML file via a crafted URL.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-12110",
+      "description": "A flaw was found in Keycloak. An offline session continues to be valid when the offline_access scope is removed from the client. The refresh token is accepted and you can continue to request new tokens for the session. As it can lead to a situation where an administrator removes the scope, and assumes that offline sessions are no longer available, but they are.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-56007",
+      "description": "CRLF-injection in KeeneticOS before 4.3 at \"/auth\" API endpoint allows attackers to take over the device via adding additional users with full permissions by managing the victim to open page with exploit.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-56008",
+      "description": "Cross site scripting (XSS) vulnerability in KeeneticOS before 4.3 at \"Wireless ISP\" page allows attackers located near to the router to takeover the device via adding additional users with full permissions.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-56009",
+      "description": "Cross site request forgery (CSRF) vulnerability in KeeneticOS before 4.3 at \"/rci\" API endpoint allows attackers to take over the device via adding additional users with full permissions by managing the victim to open page with exploit.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-61132",
+      "description": "A Host Header Injection vulnerability in the password reset component in levlaz braindump v0.4.14 allows remote attackers to conduct password reset poisoning and account takeover via manipulation of the Host header when Flask's url_for(_external=True) generates reset links without a fixed SERVER_NAME.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-61136",
+      "description": "A Host Header Injection vulnerability in the password reset component in axewater sharewarez v2.4.3 allows remote attackers to conduct password reset poisoning and account takeover via manipulation of the Host header when Flask's url_for(_external=True) generates reset links without a fixed SERVER_NAME.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-12114",
+      "description": "Enabled\u00a0serial console could potentially leak information that might help attacker to find vulnerabilities.This issue affects BLU-IC2: through 1.19.5; BLU-IC4: through 1.19.5.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-50949",
+      "description": "FontForge v20230101 was discovered to contain a memory leak via the component DlgCreate8.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-50950",
+      "description": "Audiofile v0.3.7 was discovered to contain a NULL pointer dereference via the ModuleState::setup function.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-50951",
+      "description": "FontForge v20230101 was discovered to contain a memory leak via the utf7toutf8_copy function at /fontforge/sfd.c.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-59048",
+      "description": "OpenBao's AWS Plugin generates AWS access credentials based on IAM policies. Prior to version 0.1.1, the AWS Plugin is vulnerable to cross-account IAM role Impersonation in the AWS auth method. The vulnerability allows an IAM role from an untrusted AWS account to authenticate by impersonating a role with the same name in a trusted account, leading to unauthorized access. This impacts all users of the auth-aws plugin who operate in a multi-account AWS environment where IAM role names may not be unique across accounts. This vulnerability has been patched in version 0.1.1 of the auth-aws plugin. A workaround for this issue involves guaranteeing that IAM role names are unique across all AWS accounts that could potentially interact with your OpenBao environment, and to audit for any duplicate IAM roles.",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-62169",
+      "description": "OctoPrint-SpoolManager is a plugin for managing spools and all their usage metadata. In versions 1.8.0a2 and older of the testing branch and versions 1.7.7 and older of the stable branch, the APIs of the OctoPrint-SpoolManager plugin do not correctly enforce authentication or authorization checks. This issue has been patched in versions 1.8.0a3 of the testing branch and 1.7.8 of the stable branch. The impact of this vulnerability is greatly reduced when using OctoPrint version 1.11.2 and newer.",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-34155",
+      "description": "Tibbo AggreGate Network Manager < 6.40.05 contains an observable response discrepancy in its login functionality. Authentication failure messages differ based on whether a supplied username exists or not, allowing an unauthenticated remote attacker to infer valid account identifiers. This can facilitate user enumeration and increase the likelihood of targeted brute-force or credential-stuffing attacks.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-34156",
+      "description": "Tibbo AggreGate Network Manager < 6.40.05 exposes sensitive system information through an unauthenticated endpoint at /cwmp/happyaxis.jsp. The page discloses Java system properties, server path details, and version information to unauthorized users, resulting in information disclosure that could aid further compromise.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-62713",
+      "description": "Kottster is a self hosted Node.js admin panel. From versions 3.2.0 to before 3.3.2, Kottster contains a pre-authentication remote code execution (RCE) vulnerability when running in development mode. This affects development mode only, production deployments were never affected. This issue has been fixed in version 3.3.2.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-57240",
+      "description": "Cross site scripting (XSS) vulnerability in 17gz International Student service system 1.0 allows attackers to execute arbitrary code via the registration step.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-61413",
+      "description": "A stored cross-site scripting (XSS) vulnerability in the /manager/pages component of Piranha CMS v12.0 allows attackers to execute arbitrary web scripts or HTML via creating a page and injecting a crafted payload into the Markdown blocks.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-61464",
+      "description": "gnuboard gnuboard4 v4.36.04 and before is vulnerable to Second-order SQL Injection via the search_table in bbs/search.php.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-10937",
+      "description": "Oxford Nanopore Technologies' MinKNOW software at or prior to version 24.11 creates a temporary file to store the local authentication token during startup, before copying it to its final location. This temporary file is created in a directory accessible to all users on the system. An unauthorized local user or process can exploit this behavior by placing a file lock on the temporary token file using the flock system call. This prevents MinKNOW from completing the token generation process. As a result, no valid local token is created, and the software is unable to execute commands on the sequencer. This leads to a denial-of-service (DoS) condition, blocking sequencing operations.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-11621",
+      "description": "Vault and Vault Enterprise\u2019s (\u201cVault\u201d) AWS Auth method may be susceptible to authentication bypass if the role of the configured bound_principal_iam is the same across AWS accounts, or uses a wildcard. This vulnerability, CVE-2025-11621, is fixed in Vault Community Edition 1.21.0 and Vault Enterprise 1.21.0, 1.20.5, 1.19.11, and 1.16.27",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-23300",
+      "description": "NVIDIA Display Driver for Linux contains a vulnerability in the kernel driver, where a user could cause a null pointer dereference by allocating a specific memory resource. A successful exploit of this vulnerability might lead to denial of service.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-23330",
+      "description": "NVIDIA Display Driver for Linux contains a vulnerability where an attacker might be able to trigger a null pointer dereference. A successful exploit of this vulnerability might lead to denial of service.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-23332",
+      "description": "NVIDIA Display Driver for Linux contains a vulnerability in a kernel module, where an attacker might be able to trigger a null pointer deference. A successful exploit of this vulnerability might lead to denial of service.",
+      "severity": "MEDIUM",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2025-23345",
+      "description": "NVIDIA Display Driver for Windows and Linux contains a vulnerability in a video decoder, where an attacker might cause an out-of-bounds read. A successful exploit of this vulnerability might lead to information disclosure or denial of service.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-23347",
+      "description": "NVIDIA Project G-Assist contains a vulnerability where an attacker might be able to escalate permissions. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, data tampering, denial of service, and information disclosure.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-23352",
+      "description": "NVIDIA vGPU software contains a vulnerability in the Virtual GPU Manager, where a malicious guest could cause uninitialized pointer access. A successful exploit of this vulnerability might lead to code execution, denial of service, escalation of privileges, information disclosure, and data tampering.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-54808",
+      "description": "Oxford Nanopore Technologies' MinKNOW software at or prior to version 24.11 stores authentication tokens in a file located in the system's temporary directory (/tmp) on the host machine. This directory is typically world-readable, allowing any local user or application to access the token. If the token is leaked (e.g., via malware infection or other local exploit), and remote access is enabled, it can be used to establish unauthorized remote connections to the sequencer. Remote access must be enabled for remote exploitation to succeed. This may occur either because the user has enabled remote access for legitimate operational reasons or because malware with elevated privileges (e.g., sudo access) enables it without user consent. This vulnerability can be chained with remote access capabilities to generate a developer token from a remote device. Developer tokens can be created with arbitrary expiration dates, enabling persistent access to the sequencer and bypassing standard authentication mechanisms.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-60837",
+      "description": "A reflected cross-site scripting (XSS) vulnerability in MCMS v6.0.1 allows attackers to execute arbitrary Javascript in the context of a user's browser via a crafted payload.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-60859",
+      "description": "Cross Site Scripting (XSS) vulnerability in Gnuboard 5.6.15 allows authenticated attackers to execute arbitrary code via crafted c_id parameter in bbs/view_comment.php.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-62255",
+      "description": "Self Cross-site scripting (XSS) vulnerability on the edit Knowledge Base article page in Liferay Portal 7.4.0 through 7.4.3.101, and older unsupported versions, and Liferay DXP 2023.Q3.1 through 2023.Q3.5, 7.4 GA through update 92, and older unsupported versions  allows remote attackers to inject arbitrary web script or HTML via a crafted payload injected into an attachment's filename.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-6978",
+      "description": "Diagnostics command injection vulnerability",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2025-6979",
+      "description": "Captive Portal can allow authentication bypass",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-6980",
+      "description": "Captive Portal can expose sensitive information",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-12044",
+      "description": "Vault and Vault Enterprise (\u201cVault\u201d) are vulnerable to an unauthenticated denial of service when processing JSON payloads. This occurs due to a regression from a previous fix for [+HCSEC-2025-24+|https://discuss.hashicorp.com/t/hcsec-2025-24-vault-denial-of-service-though-complex-json-payloads/76393]\u00a0 which allowed for processing JSON payloads before applying rate limits. This vulnerability, CVE-2025-12044, is fixed in Vault Community Edition 1.21.0 and Vault Enterprise 1.16.27, 1.19.11, 1.20.5, and 1.21.0.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-54963",
+      "description": "An issue was discovered in BAE SOCET GXP before 4.6.0.2. An attacker with the ability to interact with the GXP Job Service may submit a crafted job request that grants read access to files on the filesystem with the permissions of the GXP Job Service process. The path to a file is not sanitized for directory traversal, potentially allowing an attacker to read sensitive files in some configurations.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-54964",
+      "description": "An issue was discovered in BAE SOCET GXP before 4.6.0.2. An attacker with the ability to interact with the GXP Job Service may inject arbitrary executables. If the Job Service is configured for local-only access, this may allow for privilege escalation in certain situations. If the Job Service is network accessible, this may allow remote command execution.",
+      "severity": "HIGH",
+      "score": 8.4
+    },
+    {
+      "id": "CVE-2025-54966",
+      "description": "An issue was discovered in BAE SOCET GXP before 4.6.0.2. Some endpoints on the SOCET GXP Job Status Service may return sensitive information in certain situations, including local file paths and SOCET GXP version information.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-55067",
+      "description": "The TLS4B ATG system is vulnerable to improper handling of Unix time values that exceed the 2038 epoch rollover. When the system clock reaches January 19, 2038, it resets to December 13, 1901, causing authentication failures and disrupting core system functionalities such as login access, history visibility, and leak detection termination. This vulnerability could allow an attacker to manipulate the system time to trigger a denial of service (DoS) condition, leading to administrative lockout, operational timer failures, and corrupted log entries.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-57848",
+      "description": "A container privilege escalation flaw was found in certain Container-native Virtualization images. This issue stems from the /etc/passwd file being created with group-writable permissions during build time. In certain conditions, an attacker who can execute commands within an affected container, even as a non-root user, can leverage their membership in the root group to modify the /etc/passwd file. This could allow the attacker to add a new user with any arbitrary UID, including UID 0, leading to full root privileges within the container.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-58428",
+      "description": "The TLS4B ATG system's SOAP-based interface is vulnerable due to its accessibility through the web services handler. This vulnerability enables remote attackers with valid credentials to execute system-level commands on the underlying Linux system. This could allow the attacker to achieve remote command execution, full shell access, and potential lateral movement within the network.",
+      "severity": "CRITICAL",
+      "score": 9.9
+    },
+    {
+      "id": "CVE-2025-62236",
+      "description": "The Frontier Airlines website has a publicly available endpoint that validates if an email addresses is associated with an account. An unauthenticated, remote attacker could determine valid email addresses, possibly aiding in further attacks.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-62517",
+      "description": "Rollbar.js offers error tracking and logging from Javascript to Rollbar. In versions before 2.26.5 and from 3.0.0-alpha1 to before 3.0.0-beta5, there is a prototype pollution vulnerability in merge(). If application code calls rollbar.configure() with untrusted input, prototype pollution is possible. This issue has been fixed in versions 2.26.5 and 3.0.0-beta5. A workaround involves ensuring that values passed to rollbar.configure() do not contain untrusted input.",
+      "severity": "MEDIUM",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2025-12100",
+      "description": "Incorrect Default Permissions vulnerability in MongoDB BI Connector ODBC driver allows Privilege Escalation.This issue affects BI Connector ODBC driver: from 1.0.0 through 1.4.6.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-58078",
+      "description": "A relative path traversal vulnerability was discovered in Productivity Suite software version \n\n4.4.1.19.\n\n\n The vulnerability allows an unauthenticated remote attacker to interact with the ProductivityService PLC simulator and write files with arbitrary data on the target machine.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-58456",
+      "description": "A relative path traversal vulnerability was discovered in Productivity Suite software version \n\n4.4.1.19.\n\n The vulnerability allows an unauthenticated remote attacker to interact with the ProductivityService PLC simulator and read arbitrary files on the target machine.",
+      "severity": "MEDIUM",
+      "score": 6.8
+    },
+    {
+      "id": "CVE-2025-59273",
+      "description": "Improper access control in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-59500",
+      "description": "Improper access control in Azure Notification Service allows an authorized attacker to elevate privileges over a network.",
+      "severity": "HIGH",
+      "score": 7.7
+    },
+    {
+      "id": "CVE-2025-59503",
+      "description": "Server-side request forgery (ssrf) in Azure Compute Gallery allows an unauthorized attacker to elevate privileges over a network.",
+      "severity": "CRITICAL",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2025-61934",
+      "description": "A binding to an unrestricted IP address vulnerability was discovered in Productivity Suite software version v4.4.1.19. The vulnerability allows an unauthenticated remote attacker to interact with the ProductivityService PLC simulator and read, write, or delete arbitrary files and folders on the target machine",
+      "severity": "CRITICAL",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2025-61977",
+      "description": "A weak password recovery mechanism for forgotten password vulnerability was discovered in Productivity Suite software version v4.4.1.19. The vulnerability allows an attacker to decrypt an encrypted project by answering just one recovery question.",
+      "severity": "HIGH",
+      "score": 7.0
+    },
+    {
+      "id": "CVE-2025-62498",
+      "description": "A relative path traversal (ZipSlip) vulnerability was discovered in Productivity Suite software version \n\n4.4.1.19. The vulnerability allows an attacker who can tamper with a productivity project to execute arbitrary code on the machine where the project is opened.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-62688",
+      "description": "An incorrect permission assignment for a critical resource vulnerability was discovered in Productivity Suite software version 4.4.1.19. The vulnerability allows an attacker with low-privileged credentials to change their role, gaining full control access to the project.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-58429",
+      "description": "A relative path traversal vulnerability was discovered in Productivity Suite software version 4.4.1.19. The vulnerability allows an unauthenticated remote attacker to interact with the ProductivityService PLC simulator and delete arbitrary files on the target machine.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-59776",
+      "description": "A relative path traversal vulnerability was discovered in Productivity Suite software version 4.4.1.19. The vulnerability allows an unauthenticated remote attacker to interact with the ProductivityService PLC simulator and create arbitrary directories on the target machine.",
+      "severity": "MEDIUM",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2025-60023",
+      "description": "A relative path traversal vulnerability was discovered in Productivity Suite software version 4.4.1.19. The vulnerability allows an unauthenticated remote attacker to interact with the ProductivityService PLC simulator and delete arbitrary directories on the target machine.",
+      "severity": "MEDIUM",
+      "score": 4.0
+    },
+    {
+      "id": "CVE-2025-62254",
+      "description": "The ComboServlet in Liferay Portal 7.4.0 through 7.4.3.111, and older unsupported versions, and Liferay DXP 2023.Q4.0 through 2023.Q4.2, 2023.Q3.1 through 2023.Q3.5, 7.4 GA through update 92, 7.3 GA through update 35, and older unsupported versions  does not limit the number or size of the files it will combine, which allows remote attackers to create very large responses that lead to a denial of service attack via the URL query string.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-7730",
+      "description": "The Bold Page Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the \u2018percentage\u2019 parameter in all versions up to, and including, 5.4.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    }
   ]
 }
