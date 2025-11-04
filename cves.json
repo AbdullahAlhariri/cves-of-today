@@ -27030,5 +27030,1537 @@
       "severity": "MEDIUM",
       "score": 6.4
     }
+  ],
+  "2025-11-04": [
+    {
+      "id": "CVE-2025-35021",
+      "description": "By failing to authenticate three times to an unconfigured Abilis CPX device via SSH, an attacker can login to a restricted shell on the fourth attempt, and from there, relay connections.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-46556",
+      "description": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. Versions 2.27.1 and below allow attackers to permanently corrupt issue activity logs by submitting extremely long notes (tested with 4,788,761 characters) due to a lack of server-side validation of note length. Once such a note is added, the activity stream UI fails to render; therefore, new notes cannot be displayed, effectively breaking all future collaboration on the issue. This issue is fixed in version 2.27.2.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-43288",
+      "description": "This issue was addressed with improved validation of symlinks. This issue is fixed in macOS Sequoia 15.7, macOS Tahoe 26. An app may be able to bypass Privacy preferences.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43309",
+      "description": "A logic issue was addressed with improved checks. This issue is fixed in iOS 26 and iPadOS 26. An attacker with physical access to an iOS device may be able to view notification contents from the Lock Screen.",
+      "severity": "LOW",
+      "score": 2.4
+    },
+    {
+      "id": "CVE-2025-43322",
+      "description": "A logic issue was addressed with improved checks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access user-sensitive data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43323",
+      "description": "This issue was addressed with additional entitlement checks. This issue is fixed in iOS 26 and iPadOS 26, macOS Tahoe 26, tvOS 26, visionOS 26, watchOS 26. An app may be able to fingerprint the user.",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-43334",
+      "description": "This issue was addressed with additional entitlement checks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access user-sensitive data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43335",
+      "description": "The issue was addressed by adding additional logic. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access user-sensitive data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43336",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app with root privileges may be able to access private information.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-43338",
+      "description": "An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in iOS 26 and iPadOS 26, macOS Sonoma 14.8.2, macOS Sonoma 14.8.4, macOS Tahoe 26. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-43345",
+      "description": "A correctness issue was addressed with improved checks. This issue is fixed in iOS 18.7 and iPadOS 18.7, iOS 26 and iPadOS 26, macOS Sequoia 15.7, macOS Sonoma 14.8, macOS Tahoe 26, tvOS 26, visionOS 26, watchOS 26. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43348",
+      "description": "A logic issue was addressed with improved validation. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may bypass Gatekeeper checks.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43350",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 26.1 and iPadOS 26.1. An attacker may be able to view restricted content from the lock screen.",
+      "severity": "LOW",
+      "score": 2.4
+    },
+    {
+      "id": "CVE-2025-43360",
+      "description": "The issue was addressed with improved UI. This issue is fixed in iOS 26 and iPadOS 26. Password fields may be unintentionally revealed.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43361",
+      "description": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 26 and iPadOS 26, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26, tvOS 26, visionOS 26, watchOS 26. A malicious app may be able to read kernel memory.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43364",
+      "description": "A race condition was addressed with additional validation. This issue is fixed in macOS Sequoia 15.7, macOS Sonoma 14.8, macOS Tahoe 26.1. An app may be able to break out of its sandbox.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43365",
+      "description": "A denial-of-service issue was addressed with improved input validation. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26 and iPadOS 26. An unprivileged process may be able to terminate a root processes.",
+      "severity": "LOW",
+      "score": 2.8
+    },
+    {
+      "id": "CVE-2025-43373",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to cause unexpected system termination or corrupt kernel memory.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43376",
+      "description": "A logic issue was addressed with improved state management. This issue is fixed in Safari 26, iOS 18.7.7 and iPadOS 18.7.7, iOS 26 and iPadOS 26, macOS Tahoe 26, tvOS 26, visionOS 26, watchOS 26. A remote attacker may be able to view leaked DNS queries with Private Relay turned on.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43377",
+      "description": "An out-of-bounds read was addressed with improved bounds checking. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, macOS Sequoia 15.7.2, macOS Tahoe 26.1. An app may be able to cause a denial-of-service.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43378",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43379",
+      "description": "This issue was addressed with improved validation of symlinks. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. An app may be able to access protected user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43380",
+      "description": "An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. Parsing a file may lead to an unexpected app termination.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43382",
+      "description": "A parsing issue in the handling of directory paths was addressed with improved path validation. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43383",
+      "description": "An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43384",
+      "description": "An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43385",
+      "description": "An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43386",
+      "description": "An out-of-bounds access issue was addressed with improved bounds checking. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43387",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Tahoe 26.1. A malicious app may be able to gain root privileges.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43389",
+      "description": "A privacy issue was addressed by removing the vulnerable code. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, visionOS 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43390",
+      "description": "A downgrade issue affecting Intel-based Mac computers was addressed with additional code-signing restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Tahoe 26.1. An app may be able to access user-sensitive data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43391",
+      "description": "A privacy issue was addressed with improved handling of temporary files. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43392",
+      "description": "The issue was addressed with improved handling of caches. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. A website may exfiltrate image data cross-origin.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43394",
+      "description": "This issue was addressed with improved handling of symlinks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access protected user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43395",
+      "description": "This issue was addressed with improved handling of symlinks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access protected user data.",
+      "severity": "LOW",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2025-43396",
+      "description": "A logic issue was addressed with improved checks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. A sandboxed app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43397",
+      "description": "A permissions issue was addressed by removing the vulnerable code. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to cause a denial-of-service.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43398",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. An app may be able to cause unexpected system termination.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43399",
+      "description": "This issue was addressed with improved redaction of sensitive information. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, macOS Sequoia 15.7.2, macOS Tahoe 26.1. An app may be able to access protected user data.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43401",
+      "description": "A denial-of-service issue was addressed with improved validation. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. A remote attacker may be able to cause a denial-of-service.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43405",
+      "description": "A permissions issue was addressed with additional sandbox restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access user-sensitive data.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43407",
+      "description": "This issue was addressed with improved entitlements. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. An app may be able to break out of its sandbox.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43408",
+      "description": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An attacker with physical access may be able to access contacts from the lock screen.",
+      "severity": "LOW",
+      "score": 2.4
+    },
+    {
+      "id": "CVE-2025-43409",
+      "description": "A permissions issue was addressed with additional sandbox restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43411",
+      "description": "This issue was addressed with additional entitlement checks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access user-sensitive data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43412",
+      "description": "A file quarantine bypass was addressed with additional checks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to break out of its sandbox.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-43413",
+      "description": "An access issue was addressed with additional sandbox restrictions. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. A sandboxed app may be able to observe system-wide network connections.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43414",
+      "description": "A permissions issue was addressed with improved validation. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. A shortcut may be able to access files that are normally inaccessible to the Shortcuts app.",
+      "severity": "MEDIUM",
+      "score": 6.2
+    },
+    {
+      "id": "CVE-2025-43419",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in Safari 26, iOS 26 and iPadOS 26, macOS Tahoe 26, tvOS 26, visionOS 26, watchOS 26. Processing maliciously crafted web content may lead to memory corruption.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-43420",
+      "description": "A race condition was addressed with improved state handling. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-43421",
+      "description": "Multiple issues were addressed by disabling array allocation sinking. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43422",
+      "description": "The issue was addressed by adding additional logic. This issue is fixed in iOS 26.1 and iPadOS 26.1. An attacker with physical access to a device may be able to disable Stolen Device Protection.",
+      "severity": "MEDIUM",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2025-43423",
+      "description": "A logging issue was addressed with improved data redaction. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Tahoe 26.1, visionOS 26.1. An attacker with physical access to an unlocked device paired with a Mac may be able to view sensitive user information in system logging.",
+      "severity": "LOW",
+      "score": 2.0
+    },
+    {
+      "id": "CVE-2025-43424",
+      "description": "The issue was addressed with improved bounds checks. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1. A malicious HID device may cause an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-43425",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43426",
+      "description": "A logging issue was addressed with improved data redaction. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43427",
+      "description": "This issue was addressed through improved state management. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43429",
+      "description": "A buffer overflow was addressed with improved bounds checking. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43430",
+      "description": "This issue was addressed through improved state management. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43431",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to memory corruption.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-43432",
+      "description": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43433",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to memory corruption.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-43434",
+      "description": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected Safari crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43435",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43436",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. An app may be able to enumerate a user's installed apps.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43438",
+      "description": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected Safari crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43439",
+      "description": "A privacy issue was addressed by removing sensitive data. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, visionOS 26.1. An app may be able to fingerprint the user.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43440",
+      "description": "This issue was addressed with improved checks. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-43441",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43442",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1. An app may be able to identify what other apps a user has installed.",
+      "severity": "LOW",
+      "score": 3.3
+    },
+    {
+      "id": "CVE-2025-43443",
+      "description": "This issue was addressed with improved checks. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43444",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. An app may be able to fingerprint the user.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-43445",
+      "description": "An out-of-bounds read was addressed with improved input validation. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43446",
+      "description": "This issue was addressed with improved validation of symlinks. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to modify protected parts of the file system.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43447",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. An app may be able to cause unexpected system termination or corrupt kernel memory.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43448",
+      "description": "This issue was addressed with improved validation of symlinks. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. An app may be able to break out of its sandbox.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-43449",
+      "description": "The issue was addressed with improved handling of caches. This issue is fixed in iOS 26.1 and iPadOS 26.1. A malicious app may be able to track users between installs.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43450",
+      "description": "A logic issue was addressed with improved checks. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1. An app may be able to learn information about the current camera view before being granted camera access.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43452",
+      "description": "This issue was addressed by restricting options offered on a locked device. This issue is fixed in iOS 26.1 and iPadOS 26.1. Keyboard suggestions may display sensitive information on the lock screen.",
+      "severity": "MEDIUM",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2025-43454",
+      "description": "This issue was addressed through improved state management. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1. A device may persistently fail to lock.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43455",
+      "description": "A privacy issue was addressed with improved checks. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. A malicious app may be able to take a screenshot of sensitive information in embedded views.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43457",
+      "description": "A use-after-free issue was addressed with improved memory management. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected Safari crash.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-43458",
+      "description": "This issue was addressed through improved state management. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. Processing maliciously crafted web content may lead to an unexpected process crash.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43459",
+      "description": "An authentication issue was addressed with improved state management. This issue is fixed in watchOS 26.1. An attacker with physical access to a locked Apple Watch may be able to view Live Voicemail.",
+      "severity": "MEDIUM",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2025-43460",
+      "description": "A logic issue was addressed with improved checks. This issue is fixed in iOS 26.1 and iPadOS 26.1. An attacker with physical access to a locked device may be able to view sensitive user information.",
+      "severity": "MEDIUM",
+      "score": 4.6
+    },
+    {
+      "id": "CVE-2025-43462",
+      "description": "The issue was addressed with improved memory handling. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. An app may be able to cause unexpected system termination or corrupt kernel memory.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43468",
+      "description": "A downgrade issue affecting Intel-based Mac computers was addressed with additional code-signing restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43469",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43472",
+      "description": "A validation issue was addressed with improved input sanitization. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to gain root privileges.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43474",
+      "description": "An out-of-bounds read was addressed with improved input validation. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to cause unexpected system termination or read kernel memory.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43476",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to break out of its sandbox.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-43477",
+      "description": "A privacy issue was addressed with improved private data redaction for log entries. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43478",
+      "description": "A use after free issue was addressed with improved memory management. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to cause unexpected system termination.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43479",
+      "description": "A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43480",
+      "description": "The issue was addressed with improved checks. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, tvOS 26.1, visionOS 26.1, watchOS 26.1. A malicious website may exfiltrate data cross-origin.",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-43481",
+      "description": "This issue was addressed with improved checks. This issue is fixed in macOS Sequoia 15.7.2, macOS Tahoe 26.1. An app may be able to break out of its sandbox.",
+      "severity": "MEDIUM",
+      "score": 5.2
+    },
+    {
+      "id": "CVE-2025-43493",
+      "description": "The issue was addressed with improved checks. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1. Visiting a malicious website may lead to address bar spoofing.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43495",
+      "description": "The issue was addressed with improved checks. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1. An app may be able to monitor keystrokes without user permission.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-43496",
+      "description": "The issue was addressed by adding additional logic. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. Remote content may be loaded even when the 'Load Remote Images' setting is turned off.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43498",
+      "description": "An authorization issue was addressed with improved state management. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1, visionOS 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43499",
+      "description": "This issue was addressed with additional entitlement checks. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, macOS Sequoia 15.7.2, macOS Sonoma 14.8.2, macOS Tahoe 26.1. An app may be able to access sensitive user data.",
+      "severity": "MEDIUM",
+      "score": 5.5
+    },
+    {
+      "id": "CVE-2025-43500",
+      "description": "A privacy issue was addressed with improved handling of user preferences. This issue is fixed in iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. An app may be able to access sensitive user data.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43502",
+      "description": "A privacy issue was addressed by removing sensitive data. This issue is fixed in Safari 26.1, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1. An app may be able to bypass certain Privacy preferences.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-43503",
+      "description": "An inconsistent user interface issue was addressed with improved state management. This issue is fixed in Safari 26.1, iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. Visiting a malicious website may lead to user interface spoofing.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-43504",
+      "description": "A buffer overflow was addressed with improved bounds checking. This issue is fixed in Xcode 26.1. A user in a privileged network position may be able to cause a denial-of-service.",
+      "severity": "MEDIUM",
+      "score": 4.9
+    },
+    {
+      "id": "CVE-2025-43505",
+      "description": "An out-of-bounds write issue was addressed with improved input validation. This issue is fixed in Xcode 26.1. Processing a maliciously crafted file may lead to heap corruption.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-43507",
+      "description": "A privacy issue was addressed by moving sensitive data. This issue is fixed in iOS 18.7.2 and iPadOS 18.7.2, iOS 26.1 and iPadOS 26.1, macOS Tahoe 26.1, visionOS 26.1, watchOS 26.1. An app may be able to fingerprint the user.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-11841",
+      "description": "The Greenshift \u2013 animation and page builder blocks plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Chart Data attributes in all versions up to, and including, 12.2.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-12324",
+      "description": "The TablePress \u2013 Tables in WordPress made easy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's `table` shortcode attributes in all versions up to, and including, 3.2.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-11007",
+      "description": "The CE21 Suite plugin for WordPress is vulnerable to unauthorized plugin settings update due to a missing capability check on the wp_ajax_nopriv_ce21_single_sign_on_save_api_settings AJAX action in versions 2.2.1 to 2.3.1. This makes it possible for unauthenticated attackers to update the plugin's API settings including a secret key used for authentication. This allows unauthenticated attackers to create new admin accounts on an affected site.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-11008",
+      "description": "The CE21 Suite plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.3.1 via the log file. This makes it possible for unauthenticated attackers to extract sensitive data including authentication credentials, which can be used to log in as other users as long as they have used the plugin's custom authentication feature before. This may include administrators, which makes a complete site takeover possible.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-12069",
+      "description": "The WP Global Screen Options plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.2. This is due to missing nonce validation on the `updatewpglobalscreenoptions` action handler. This makes it possible for unauthenticated attackers to modify global screen options for all users via a forged request granted they can trick an administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-12070",
+      "description": "The ViaAds plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.1.2. This is due to missing nonce validation on the `ViaAds_pluginHandler` function. This makes it possible for unauthenticated attackers to modify the plugin's API key and cookie consent settings via a forged request granted they can trick an administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-12401",
+      "description": "The Label Plugins plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.5. This is due to missing or incorrect nonce validation on the label_plugins_options() function. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-27064",
+      "description": "Information disclosure while registering commands from clients with diag through diagHal.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-27070",
+      "description": "Memory corruption while performing encryption and decryption commands.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-27074",
+      "description": "Memory corruption while processing a GP command response.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-47352",
+      "description": "Memory corruption while processing audio streaming operations.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47353",
+      "description": "Memory corruption while processing request sent from GVM.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47357",
+      "description": "Information Disclosure when a user-level driver performs QFPROM read or write operations on Fuse regions.",
+      "severity": "HIGH",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2025-47360",
+      "description": "Memory corruption while processing client message during device management.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47361",
+      "description": "Memory corruption when triggering a subsystem crash with an out-of-range identifier.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47362",
+      "description": "Information disclosure while processing message from client with invalid payload.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-47365",
+      "description": "Memory corruption while processing large input data from a remote source via a communication interface.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47367",
+      "description": "Memory corruption while accessing a buffer during IOCTL processing.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47368",
+      "description": "Memory corruption when dereferencing an invalid userspace address in a user buffer during MCDM IOCTL processing.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-47370",
+      "description": "Transient DOS when a remote device sends an invalid connection request during BT connectable LE scan.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-10896",
+      "description": "Multiple plugins for WordPress with the Jewel Theme Recommended Plugins Library are vulnerable to Unrestricted Upload of File with Dangerous Type via arbitrary plugin installation in all versions up to, and including, 1.0.2.3. This is due to missing capability checks on the '*_recommended_upgrade_plugin' function which allows arbitrary plugin URLs to be installed. This makes it possible for authenticated attackers with subscriber-level access and above to upload arbitrary plugin packages to the affected site's server via a crafted plugin URL, which may make remote code execution possible.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11704",
+      "description": "The Elegance Menu plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 1.9 via the 'elegance-menu' attribute of the `elegance-menu` shortcode. This makes it possible for authenticated attackers, with Contributor-level access and above, to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-11724",
+      "description": "The EM Beer Manager plugin for WordPress is vulnerable to arbitrary file upload leading to remote code execution in all versions up to, and including, 3.2.3. This is due to missing file type validation in the EMBM_Admin_Untappd_Import_image() function and missing authorization checks on the wp_ajax_embm-untappd-import action. This makes it possible for authenticated attackers, with subscriber-level access and above, to upload arbitrary files including PHP files and execute code on the server granted they can provide a mock HTTP server that responds with specific JSON data.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11733",
+      "description": "The Footnotes Made Easy plugin for WordPress is vulnerable to Stored Cross-Site Scripting via plugin settings in all versions up to, and including, 3.0.7 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2025-11753",
+      "description": "The Bootstrap Multi-language Responsive Portfolio plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 1.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-11758",
+      "description": "The All in One Time Clock Lite plugin for WordPress is vulnerable to unauthorized access due to a missing authorization check in all versions up to, and including, 2.0.3. This is due  to the plugin exposing admin-level AJAX actions to unauthenticated users via wp_ajax_nopriv_ hooks, while relying only on a nonce check without capability checks. This makes it possible for  unauthenticated attackers to create published pages, create shift records with integrity issues, and download time reports containing PII (employee names and work schedules).",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-11812",
+      "description": "The Reuse Builder plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'reuse_builder_single_post_title' shortcode in all versions up to, and including, 1.7. This is due to insufficient input sanitization and output escaping on the 'style' attribute. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-11890",
+      "description": "The Crypto Payment Gateway with Payeer for WooCommerce plugin for WordPress is vulnerable to payment bypass in all versions up to, and including, 1.0.3. This is due to the plugin not properly verifying a payments status through server-side validation though the /wc-api/bp-payeer-gateway-callback endpoint. This makes it possible for unauthenticated attackers to update unpaid order statuses to paid resulting in a loss of revenue.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-12065",
+      "description": "The WP Carticon plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'carticon_js_script' parameter in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level access, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-12156",
+      "description": "The Ai Auto Tool Content Writing Assistant (Gemini Writer, ChatGPT ) All in One plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the save_post_data() function in versions 2.0.7 to 2.2.6. This makes it possible for authenticated attackers, with Subscriber-level access and above, to create and publish arbitrary posts.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-12157",
+      "description": "The Simple User Capabilities plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'wp_ajax_nopriv_reset_capability' AJAX endpoint in all versions up to, and including, 1.0. This makes it possible for unauthenticated attackers to reset any user's capabilities.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-12158",
+      "description": "The Simple User Capabilities plugin for WordPress is vulnerable to Privilege Escalation due to a missing capability check on the suc_submit_capabilities() function in all versions up to, and including, 1.0. This makes it possible for unauthenticated attackers to elevate the role of any user account to administrator.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-12188",
+      "description": "The Posts Navigation Links for Sections and Headings \u2013 Free by WP Masters plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.1. This is due to missing or incorrect nonce validation on the 'wpm_navigation_links_settings' page. This makes it possible for unauthenticated attackers to update the plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-12350",
+      "description": "The DominoKit plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the wp_ajax_nopriv_dominokit_option_admin_action AJAX endpoint in all versions up to, and including, 1.1.0. This makes it possible for unauthenticated attackers to update plugin settings.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-12369",
+      "description": "The Extensions for Leaflet Map plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the `geojsonmarker` shortcode in all versions up to, and including, 4.7. This is due to insufficient input sanitization and output escaping on user-supplied attributes. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-12371",
+      "description": "The Nari Accountant plugin for WordPress is vulnerable to Stored Cross-Site Scripting via account settings in all versions up to, and including, 1.0.12 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with editor-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-12389",
+      "description": "The Import Export For WooCommerce plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the update_setting() function in all versions up to, and including, 1.6.2. This makes it possible for authenticated attackers, with Subscriber-level access and above, to update the plugin's record setting.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-12393",
+      "description": "The Free Quotation plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 3.1.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-12396",
+      "description": "The clubmember plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 0.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-12400",
+      "description": "The LMB^Box Smileys plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.2. This is due to missing or incorrect nonce validation on the manage_page() function. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12402",
+      "description": "The LinkedIn Resume plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 2.00. This is due to missing or incorrect nonce validation on the linkedinresume_printAdminPage() function. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12403",
+      "description": "The Associados Amazon Plugin plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 0.8. This is due to missing or incorrect nonce validation on the brzon_admin_panel() function. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12410",
+      "description": "The SH Contextual Help plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 3.2.1. This is due to missing or incorrect nonce validation in the sh_contextual_help_dashboard_widget() function. This makes it possible for unauthenticated attackers to update the plugin's settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12412",
+      "description": "The Top Bar Notification plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.12. This is due to missing or incorrect nonce validation on th tbn_ajax_add() function. This makes it possible for unauthenticated attackers to update the plugin's settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12413",
+      "description": "The Social Media WPCF7 Stop Words plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.1.3. This is due to missing or incorrect nonce validation on the smWpCfSwOptions() function. This makes it possible for unauthenticated attackers to update the plugin's settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-12415",
+      "description": "The MapMap plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.1. This is due to missing or incorrect nonce validation on the admin_shortcode_submit, admin_configuration_submit, and admin_shortcode_delete functions. This makes it possible for unauthenticated attackers to update the plugin's settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12416",
+      "description": "The Pagerank Tools plugin for WordPress is vulnerable to Stored Cross-Site Scripting via Cross-Site Request Forgery in all versions up to, and including, 1.1.5. This is due to missing nonce validation on the pr_save_settings() function and insufficient input sanitization. This makes it possible for unauthenticated attackers to inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. The injected scripts will execute whenever a user accesses the plugin's settings page.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12452",
+      "description": "The Visit Counter plugin for WordPress is vulnerable to Cross-Site Request Forgery in version 1.0. This is due to missing or incorrect nonce validation on the widgets.php page. This makes it possible for unauthenticated attackers to update settings and inject malicious web scripts via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12456",
+      "description": "The Centangle-Team plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 1.0.0. This is due to missing or incorrect nonce validation on a function. This makes it possible for unauthenticated attackers to modify plugin's settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link. Additionally, due to insufficient input sanitization and output escaping on cai_name_color parameter, this issue allows to inject arbitrary web scripts in pages, that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-12683",
+      "description": "The service employed by Everything, running as SYSTEM, communicates with the lower privileged Everything GUI via a named pipe. The named pipe has a NULL DACL and thus provides all users full permission over it; leading to potential Service Denial Of Service or Privilege escalation(only if chained with other elements) for a local low privilege user.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-20725",
+      "description": "In ims service, there is a possible out of bounds write due to a missing bounds check. This could lead to remote escalation of privilege, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01671924; Issue ID: MSV-4620.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-20726",
+      "description": "In Modem, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote escalation of privilege, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01672598; Issue ID: MSV-4622.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-20727",
+      "description": "In Modem, there is a possible out of bounds write due to a heap buffer overflow. This could lead to remote escalation of privilege, if a UE has connected to a rogue base station controlled by the attacker, with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY01672601; Issue ID: MSV-4623.",
+      "severity": "HIGH",
+      "score": 8.1
+    },
+    {
+      "id": "CVE-2025-20728",
+      "description": "In wlan STA driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00447115; Issue ID: MSV-4276.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-20729",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00441512; Issue ID: MSV-4153.",
+      "severity": "MEDIUM",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2025-20730",
+      "description": "In preloader, there is a possible escalation of privilege due to an insecure default value. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10068463; Issue ID: MSV-4141.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20731",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege (when OceReducedNeighborReport is disabled). User interaction is not needed for exploitation. Patch ID: WCNCR00441511; Issue ID: MSV-4140.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-20732",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege (when OceReducedNeighborReport is disabled). User interaction is not needed for exploitation. Patch ID: WCNCR00441510; Issue ID: MSV-4139.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-20733",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00441509; Issue ID: MSV-4138.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-20734",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00441507; Issue ID: MSV-4112.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-20735",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00435349; Issue ID: MSV-4051.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-20736",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00435347; Issue ID: MSV-4049.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20737",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00435343; Issue ID: MSV-4040.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-20738",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00435342; Issue ID: MSV-4039.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20739",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00435340; Issue ID: MSV-4038.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20740",
+      "description": "In wlan STA driver, there is a possible out of bounds read due to a race condition. This could lead to local information disclosure with User execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00435337; Issue ID: MSV-4036.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-20741",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00434422; Issue ID: MSV-3958.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20742",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to remote (proximal/adjacent) escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: WCNCR00432680; Issue ID: MSV-3949.",
+      "severity": "HIGH",
+      "score": 8.0
+    },
+    {
+      "id": "CVE-2025-20743",
+      "description": "In clkdbg, there is a possible escalation of privilege due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10136671; Issue ID: MSV-4651.",
+      "severity": "MEDIUM",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2025-20744",
+      "description": "In pda, there is a possible escalation of privilege due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10127160; Issue ID: MSV-4542.",
+      "severity": "MEDIUM",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2025-20745",
+      "description": "In apusys, there is a possible memory corruption due to use after free. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10095441; Issue ID: MSV-4294.",
+      "severity": "MEDIUM",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2025-20746",
+      "description": "In gnss service, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10010441; Issue ID: MSV-3967.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20747",
+      "description": "In gnss service, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS10010443; Issue ID: MSV-3966.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20748",
+      "description": "In wlan AP driver, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: WCNCR00432679; Issue ID: MSV-3950.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-20749",
+      "description": "In charger, there is a possible out of bounds write due to a missing bounds check. This could lead to local escalation of privilege if a malicious actor has already obtained the System privilege. User interaction is not needed for exploitation. Patch ID: ALPS09915493; Issue ID: MSV-3800.",
+      "severity": "MEDIUM",
+      "score": 6.7
+    },
+    {
+      "id": "CVE-2025-11690",
+      "description": "An Insecure Direct Object Reference (IDOR) vulnerability exists in the vehicleId parameter, allowing unauthorized access to sensitive information of other users\u2019 vehicles. Exploiting this issue enables an attacker to retrieve data such as GPS coordinates, encryption keys, initialization vectors, model numbers, and fuel statistics belonging to other users, instead of being limited to their own vehicle data. The fix for this vulnerability is a server-side authorization fix.",
+      "severity": "HIGH",
+      "score": 8.5
+    },
+    {
+      "id": "CVE-2025-12045",
+      "description": "The Orbit Fox: Duplicate Page, Menu Icons, SVG Support, Cookie Notice, Custom Fonts & More plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the category and tag 'name' parameters in all versions up to, and including, 3.0.2 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.",
+      "severity": "MEDIUM",
+      "score": 6.4
+    },
+    {
+      "id": "CVE-2025-12493",
+      "description": "The ShopLentor \u2013 WooCommerce Builder for Elementor & Gutenberg +21 Modules \u2013 All in One Solution (formerly WooLentor) plugin for WordPress is vulnerable to Local File Inclusion in all versions up to, and including, 3.2.5 via the 'load_template' function. This makes it possible for unauthenticated attackers to include and execute arbitrary .php files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where .php file types can be uploaded and included.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-41111",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'id_denuncia' in '/backend/api/buscarComentariosByDenuncia.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41112",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'web' in '/backend/api/buscarConfiguracionParametros2.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41113",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'id_denuncia' in '/backend/api/buscarDenunciaByPin.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41114",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameters 'id_denuncia' and 'id_user' in '/backend/api/buscarDocumentosByIdDenunciaUsuario.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-12682",
+      "description": "The Easy Upload Files During Checkout plugin for WordPress is vulnerable to arbitrary JavaScript file uploads due to missing file type validation in the 'file_during_checkout' function in all versions up to, and including, 2.9.8. This makes it possible for unauthenticated attackers to upload arbitrary JavaScript files on the affected site's server which may make remote code execution possible.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-12695",
+      "description": "The overly permissive sandbox configuration in DSPy allows attackers to steal sensitive files in cases when users build an AI agent which consumes user input and uses the \u201cPythonInterpreter\u201d class.",
+      "severity": "MEDIUM",
+      "score": 5.9
+    },
+    {
+      "id": "CVE-2025-41335",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameters 'id' and ' 'id_sociedad' in '/api/buscarEmpresaById.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41336",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'web' in '/backend/api/buscarConfiguracionParametros.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41337",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'web' in '/backend/api/buscarSSOParametros.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41338",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameters 'id_denuncia' and 'id_user' in '/backend/api/buscarTestigoByIdDenunciaUsuario.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41339",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'id_sociedad' in '/backend/api/buscarTipoDenuncia.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41340",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameters 'id_tp_denuncia' and 'id_sociedad' in '/backend/api/buscarTipoDenunciabyId.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41341",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameters 'id_denuncia' and 'seguro' in '/backend/api/buscarUsuarioByDenuncia.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41342",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'id_user' in '/backend/api/buscarUsuarioId.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41343",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'email' in '/backend/api/users/searchUserByEmail.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41344",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameter 'id_archivo' in '/backend/api/verArchivo.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-41345",
+      "description": "A lack of authorisation vulnerability has been detected in CanalDenuncia.app. This vulnerability allows an attacker to access other users' information by sending a POST through the\u00a0parameters 'id_denuncia' and 'id_user' in '/backend/api/buscarDenunciasById.php'.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-12184",
+      "description": "The MeetingList plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in all versions up to, and including, 0.11 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.",
+      "severity": "MEDIUM",
+      "score": 4.4
+    },
+    {
+      "id": "CVE-2025-63294",
+      "description": "WorkDo HRM SaaS HR and Payroll Tool 8.1 is affected vulnerable to Insecure Permissions. An authenticated user can create leave or resignation records on behalf of other users.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-54323",
+      "description": "An issue was discovered in the camera in Samsung Mobile Processor Exynos 980, 990, 850, 1080, 2100, 1280, 2200, 1330, 1380, 1480, 2400, and 1580. Improper debug printing leads to information leakage.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-54329",
+      "description": "An issue was discovered in NAS in Samsung Mobile Processor, Wearable Processor, and Modem Exynos 980, 990, 850, 2100, 1280, 2200, 1330, 1380, 1480, 2400, 1580, 2500, W920, W930, W1000, Modem 5123, Modem 5300, and Modem 5400. The function used to send a multiple-payloads message (including an SMS message) lacks bounds checking, which can lead to a heap overflow.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-54330",
+      "description": "An issue was discovered in NPU in Samsung Mobile Processor Exynos 1380 through July 2025. There is an Out-of-bounds Read of q->bufs[] in the __is_done_for_me function.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-54331",
+      "description": "An issue was discovered in NPU in Samsung Mobile Processor Exynos 1380 through July 2025. There is an Untrusted Pointer Dereference of src_hdr in the copy_ncp_header function.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-54332",
+      "description": "An issue was discovered in NPU in Samsung Mobile Processor Exynos 1380 through July 2025. There is a NULL Pointer Dereference of profiler.node in the npu_vertex_profileoff function.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-54863",
+      "description": "Radiometrics VizAir is vulnerable to exposure of the system's REST API key through a publicly accessible configuration file. This allows attackers to remotely alter weather data and configurations, automate attacks against multiple instances, and extract sensitive meteorological data, which could potentially compromise airport operations. Additionally, attackers could flood the system with false alerts, leading to a denial-of-service condition and significant disruption to airport operations. Unauthorized remote control over aviation weather monitoring and data manipulation could result in incorrect flight planning and hazardous takeoff and landing conditions.",
+      "severity": "CRITICAL",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2025-60925",
+      "description": "codeshare v1.0.0 was discovered to contain an information leakage vulnerability.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-61945",
+      "description": "Radiometrics VizAir is vulnerable to any remote attacker via access to the admin panel of the VizAir system without authentication. Once inside, the attacker can modify critical weather parameters such as wind shear alerts, inversion depth, and CAPE values, which are essential for accurate weather forecasting and flight safety. This unauthorized access could result in the disabling of vital alerts, causing hazardous conditions for aircraft, and manipulating runway assignments, which could result in mid-air conflicts or runway incursions.",
+      "severity": "CRITICAL",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2025-61956",
+      "description": "Radiometrics VizAir is vulnerable to a lack of authentication mechanisms for critical functions, such as admin access and API requests. Attackers can modify configurations without authentication, potentially manipulating active runway settings and misleading air traffic control (ATC) and pilots. Additionally, manipulated meteorological data could mislead forecasters and ATC, causing inaccurate flight planning.",
+      "severity": "CRITICAL",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2025-54325",
+      "description": "An issue was discovered in VTS in Samsung Mobile Processor and Wearable Processor Exynos 1080, 1280, 2200, 1380, 1480, 2400, 1580, 2500, W920, W930, W1000. A race condition in the VTS driver results in an out-of-bounds read, leading to an information leak.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-54333",
+      "description": "An issue was discovered in NPU in Samsung Mobile Processor Exynos 1380 through July 2025. There is an Invalid Pointer Dereference of node in the get_vs4l_profiler_node function.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-10875",
+      "description": "Improper Neutralization of Input Used for LLM Prompting vulnerability in Salesforce Mulesoft Anypoint Code Builder allows Code Injection.This issue affects Mulesoft Anypoint Code Builder: before 1.11.6.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-12108",
+      "description": "The Survision LPR Camera system does not enforce password protection by default. This allows access to the configuration wizard immediately without a login prompt or credentials check.",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-52512",
+      "description": "An issue was discovered in Samsung Mobile Processor Exynos 2400, 1580, 2500. A race condition in the HTS driver results in out-of-bounds memory access, leading to a denial of service.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-52513",
+      "description": "An issue was discovered in Samsung Mobile Processor Exynos 2400, 1580, 2500. A race condition in the HTS driver results in an out-of-bounds write, leading to a denial of service.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-54334",
+      "description": "An issue was discovered in the NPU driver in Samsung Mobile Processor Exynos 1280, 2200, 1380, 1480, 2400, 1580, 2500. There is a NULL Pointer Dereference of hdev in the __npu_vertex_bootup function.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-64318",
+      "description": "Improper Neutralization of Input Used for LLM Prompting vulnerability in Salesforce Mulesoft Anypoint Code Builder allows Manipulating Writeable Configuration Files.This issue affects Mulesoft Anypoint Code Builder: before 1.12.1.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-64319",
+      "description": "Incorrect Permission Assignment for Critical Resource vulnerability in Salesforce Mulesoft Anypoint Code Builder allows Manipulating Writeable Configuration Files.This issue affects Mulesoft Anypoint Code Builder: before 1.12.1",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-64320",
+      "description": "Improper Neutralization of Input Used for LLM Prompting vulnerability in Salesforce Agentforce Vibes Extension allows Code Injection.This issue affects Agentforce Vibes Extension: before 3.2.0.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-64321",
+      "description": "Improper Neutralization of Input Used for LLM Prompting vulnerability in Salesforce Agentforce Vibes Extension allows Manipulating Writeable Configuration Files.This issue affects Agentforce Vibes Extension: before 3.3.0.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-64322",
+      "description": "Incorrect Permission Assignment for Critical Resource vulnerability in Salesforce Agentforce Vibes Extension allows Manipulating Writeable Configuration Files.This issue affects Agentforce Vibes Extension: before 3.3.0.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-23358",
+      "description": "NVIDIA NVApp for Windows contains a vulnerability in the installer, where a local attacker can cause a search path element issue. A successful exploit of this vulnerability might lead to code execution and escalation of privileges.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-33176",
+      "description": "NVIDIA RunAI for all platforms contains a vulnerability where a user could cause an improper restriction of communications channels on an adjacent network. A successful exploit of this vulnerability might lead to escalation of privileges, data tampering, and information disclosure.",
+      "severity": "MEDIUM",
+      "score": 6.2
+    },
+    {
+      "id": "CVE-2025-49494",
+      "description": "An issue was discovered in Samsung Mobile Processor, Wearable Processor, and Modem Exynos 2100, 1280, 2200, 1330, 1380, 1480, 9110, Modem 5123. Mishandling of an 5G NRMM packet leads to a Denial of Service.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-54327",
+      "description": "An issue was discovered in VTS in Samsung Mobile Processor and Wearable Processor Exynos 1280, 2200, 1380, W920, W930, W1000. Improper input validation in the VTS driver leads to an arbitrary write.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-61431",
+      "description": "A reflected cross-site scripted (XSS) vulnerability in the /jsp/gsfr_feditorHTML.jsp endpoint of Zucchetti ZMaintenance Infinity and Infinity Zucchetti v4.1 and earlier allows attackers to execute arbitrary Javascript in the context of a user's browser via injecting a crafted payload into the pHtmlSource parameter. A vendor fix was released on 2025-06-18.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2024-56426",
+      "description": "An issue was discovered in Samsung Mobile Processor and Wearable Processor Exynos 980, 990, 850, 1080, 2100, 1280, 2200, 1330, 1380, 1480, 2400, W920, W930, W1000. The lack of a length check leads to out-of-bounds writes via malformed USB packets to the target.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-27374",
+      "description": "An issue was discovered in the Secure Boot component in Samsung Mobile Processor and Wearable Processor Exynos 9820, 9825, 980, 990, 850, 1080, 1280, 2200, 1330, 1380, 1480, 2400. The lack of a length check leads to out-of-bounds writes.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-32786",
+      "description": "The GLPI Inventory Plugin handles network discovery, inventory, software deployment, and data collection for GLPI agents. Versions 1.5.0 and below are vulnerable to SQL Injection. This issue is fixed in version 1.5.1.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-47776",
+      "description": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. Due to incorrect use of loose (==) instead of strict (===) comparison in the authentication code in versions 2.27.1 and below.PHP type juggling will cause certain MD5 hashes matching scientific notation to be interpreted as numbers. Instances using the MD5 login method allow an attacker who knows the victim's username and has access to an account with a password hash that evaluates to zero to log in without knowing the victim's actual password, by using any other password with a hash that also evaluates to zero This issue is fixed in version 2.27.2.",
+      "severity": "CRITICAL",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-48076",
+      "description": "Galette is a membership management web application for non profit organizations. Versions 1.1.5.2 and below allow a user to edit a group name and insert an XSS payload. This issue is fixed in version 1.2.0.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-48884",
+      "description": "Galette is a membership management web application for non profit organizations. In versions 1.1.5.2 and below, Galette's Document Type is vulnerable to Cross-site Scripting. This issue is fixed in version 1.2.0.",
+      "severity": "MEDIUM",
+      "score": 6.1
+    },
+    {
+      "id": "CVE-2025-52910",
+      "description": "An issue was discovered in the GPU in Samsung Mobile Processor and Wearable Processor Exynos 1280, 2200, 1330, 1380, 1480, 2400. A Use-After-Free leads to privilege escalation.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-54335",
+      "description": "An issue was discovered in the GPU driver in Samsung Mobile Processor Exynos 1480, 2400, 1580, 2500. There is a use-after-free in the Xclipse GPU Driver.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-55155",
+      "description": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. In versions 2.27.1 and below, when a user edits their profile to change their e-mail address, the system saves it without validating that it actually belongs to the user. This could result in storing an invalid email address, preventing the user from receiving system notifications. Notifications sent to another person's email address could lead to information disclosure. This issue is fixed in version 2.27.2.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-54496",
+      "description": "A maliciously crafted project file may cause a heap-based buffer \noverflow in \nFuji Electric Monitouch V-SFT-6, which may allow the attacker to execute arbitrary code.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-54526",
+      "description": "Fuji Electric Monitouch V-SFT-6 is vulnerable to a stack-based buffer \noverflow while processing a specially crafted project file, which may \nallow an attacker to execute arbitrary code.",
+      "severity": "HIGH",
+      "score": 7.8
+    },
+    {
+      "id": "CVE-2025-56230",
+      "description": "Tencent Docs Desktop 3.9.20 and earlier suffers from Missing SSL Certificate Validation in the update component.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-62369",
+      "description": "Xibo is an open source digital signage platform with a web content management system (CMS). Versions 4.3.0 and below contain a Remote Code Execution vulnerability in the CMS Developer menu's Module Templating functionality, allowing authenticated users with \"System -> Add/Edit custom modules and templates\" permissions to manipulate Twig filters and execute arbitrary server-side functions as the web server user. This issue is fixed in version 4.3.1. To workaround this issue, use the 4.1 and 4.2 patch commits.",
+      "severity": "HIGH",
+      "score": 7.2
+    },
+    {
+      "id": "CVE-2025-62507",
+      "description": "Redis is an open source, in-memory database that persists on disk. In versions 8.2.0 and above, a user can run the XACKDEL command with multiple ID's and trigger a stack buffer overflow, which may potentially lead to remote code execution. This issue is fixed in version 8.2.3. To workaround this issue without patching the redis-server executable is to prevent users from executing XACKDEL operation. This can be done using ACL to restrict XACKDEL command.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-62520",
+      "description": "Mantis Bug Tracker (MantisBT) is an open source issue tracker. In versions 2.27.1 and below, due to insufficient access-level checks, any non-admin user with access to manage_config_columns_page.php can use the Copy From action to retrieve the columns configuration from a private project they have no access to. This issue is fixed in version 2.27.2.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-62715",
+      "description": "ClipBucket v5 is an open source video sharing platform. Versions 5.5.2-#147 and below contain a stored Cross-Site Scripting (XSS) vulnerability in ClipBucket\u2019s Collection tags feature. An authenticated normal user can create a tag containing HTML or JavaScript, which is later rendered unescaped in collection detail and tag-list pages. As a result, arbitrary JavaScript executes in the browsers of all users who view the affected pages. This issue is fixed in version 5.5.2-#152.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-62719",
+      "description": "LinkAce is a self-hosted archive to collect website links. In versions 2.3.0 and below, the htmlKeywordsFromUrl function in the FetchController class accepts user-provided URLs and makes HTTP requests to them without validating that the destination is not an internal or private network resource. This Server-Side Request Forgery (SSRF) vulnerability allows authenticated attackers to use the application server to perform port scanning and service discovery on internal networks. Practical impact is very limited because the function only extracts content from HTML meta keywords tags, which prevents meaningful data exfiltration from databases, APIs, or cloud metadata endpoints. This issue is fixed in version 2.4.0.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-62720",
+      "description": "LinkAce is a self-hosted archive to collect website links. Versions 2.3.1 and below allow any authenticated user to export the entire database of links from all users in the system, including private links that should only be accessible to their owners. The HTML and CSV export functions in the ExportController class retrieve all links without applying any ownership or visibility filtering, effectively bypassing all access controls implemented elsewhere in the application. This issue is fixed in version 2.4.0.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-62721",
+      "description": "LinkAce is a self-hosted archive to collect website links. In versions 2.3.1 and below, authenticated RSS feed endpoints in the FeedController class fail to implement proper authorization checks, allowing any authenticated user to access all links, lists, and tags from all users in the system, regardless of their ownership or visibility settings. This issue is fixed in version 2.4.0.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-59595",
+      "description": "CVE-2025-59595 is an internally discovered denial of service \nvulnerability in versions of Secure Access prior to 14.12. An attacker \ncan send a specially crafted packet to a server in a non-default \nconfiguration and cause the server to crash.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-59596",
+      "description": "CVE-2025-59596 is a denial-of-service vulnerability in Secure Access \nWindows client versions 12.0 to 14.10 that is addressed in version \n14.12. If a local networking policy is active, attackers on an adjacent \nnetwork may be able to send a crafted packet and cause the client system\n to crash.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-62722",
+      "description": "LinkAce is a self-hosted archive to collect website links. In versions 2.3.1 and below, the social media sharing functionality contains a Stored Cross-Site Scripting (XSS) vulnerability that allows any authenticated user to inject arbitrary JavaScript by creating a link with malicious HTML in the title field. When a user views the link details page and the shareable links are rendered, the malicious JavaScript executes in their browser. This vulnerability affects multiple sharing services and can be exploited to steal session cookies, perform actions on behalf of users, or deliver malware. This issue is fixed in version 2.4.0.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-64106",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.7.28 and below, an input validation flaw in Cursor's MCP server installation enables specially crafted deep-links to bypass the standard security warnings and conceal executed commands from users if they choose to accept the server. If an attacker is able to convince a victim to navigate to a malicious deeplink, the victim will not see the correct speedbump modal, and if they choose to accept, will execute commands specified by the attackers deeplink.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-64107",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.7.52 and below, manipulating internal settings may lead to RCE. Cursor detects path manipulation via forward slashes (./.cursor/./././././mcp.json etc.), and requires human approval to complete the operation. However, the same kind of manipulation using backslashes was not correctly detected, allowing an attacker who had already achieved prompt injection or some other level of control to overwrite sensitive editor files without approval on Windows machines. This issue is fixed in version 2.0.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-64108",
+      "description": "Cursor is a code editor built for programming with AI. In versions 1.7.44 and below, various NTFS path quirks allow a prompt injection attacker to circumvent sensitive file protections and overwrite files which Cursor requires human approval to overwrite. Modification of some of the protected files can lead to RCE. Must be chained with a prompt injection or malicious model attach. Only affects systems supporting NTFS. This issue is fixed in version 2.0.",
+      "severity": "HIGH",
+      "score": 8.8
+    }
   ]
 }
