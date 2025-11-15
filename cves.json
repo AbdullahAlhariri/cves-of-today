@@ -37252,5 +37252,277 @@
       "severity": null,
       "score": null
     }
+  ],
+  "2025-11-15": [
+    {
+      "id": "CVE-2025-55034",
+      "description": "General Industrial Controls Lynx+ Gateway\u00a0is vulnerable to a weak password requirement vulnerability, which may \nallow an attacker to execute a brute-force attack resulting in \nunauthorized access and login.",
+      "severity": "HIGH",
+      "score": 8.2
+    },
+    {
+      "id": "CVE-2025-58083",
+      "description": "General Industrial Controls Lynx+ Gateway\u00a0\n is missing critical authentication in the embedded web server which could allow an attacker to remotely reset the device.",
+      "severity": "CRITICAL",
+      "score": 10.0
+    },
+    {
+      "id": "CVE-2025-59780",
+      "description": "General Industrial Controls Lynx+ Gateway\u00a0is missing critical authentication in the embedded web server which \ncould allow an attacker to send GET requests to obtain sensitive device \ninformation.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-62765",
+      "description": "General Industrial Controls Lynx+ Gateway\u00a0is vulnerable to a cleartext transmission vulnerability that could allow\n an attacker to observe network traffic to obtain sensitive information,\n including plaintext credentials.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-64307",
+      "description": "The Brightpick Internal Logic Control web interface is accessible \nwithout requiring user authentication. An unauthorized user could \nexploit this interface to manipulate robot control functions, including \ninitiating or halting runners, assigning jobs, clearing stations, and \ndeploying storage totes.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-64308",
+      "description": "The Brightpick Mission Control web application exposes hardcoded credentials in its client-side JavaScript bundle.",
+      "severity": "HIGH",
+      "score": 7.5
+    },
+    {
+      "id": "CVE-2025-64309",
+      "description": "Brightpick Mission Control \ndiscloses device telemetry, configuration, and credential information \nvia WebSocket traffic to unauthenticated users when they connect to a \nspecific URL. The unauthenticated URL can be discovered through basic \nnetwork scanning techniques.",
+      "severity": "HIGH",
+      "score": 8.6
+    },
+    {
+      "id": "CVE-2025-8386",
+      "description": "The vulnerability, if exploited, could allow an authenticated miscreant \n(with privilege of \"aaConfigTools\") to tamper with App Objects' help \nfiles and persist a cross-site scripting (XSS) injection that when \nexecuted by a victim user, can result in horizontal or vertical \nescalation of privileges. The vulnerability can only be exploited during\n config-time operations within the IDE component of Application Server. \nRun-time components and operations are not affected.",
+      "severity": "MEDIUM",
+      "score": 6.9
+    },
+    {
+      "id": "CVE-2025-9317",
+      "description": "The vulnerability, if exploited, could allow a miscreant with read \naccess to Edge Project files or Edge Offline Cache files to reverse \nengineer Edge users' app-native or Active Directory passwords through \ncomputational brute-forcing of weak hashes.",
+      "severity": "HIGH",
+      "score": 8.4
+    },
+    {
+      "id": "CVE-2025-12182",
+      "description": "The Qi Blocks plugin for WordPress is vulnerable to unauthorized access due to a missing capability check on the `resize_image_callback()` function in all versions up to, and including, 1.4.3. This is due to the plugin not properly verifying that a user has permission to resize a specific attachment. This makes it possible for authenticated attackers, with Contributor-level access and above, to resize arbitrary media library images belonging to other users, which can result in unintended file writes, disk consumption, and server resource abuse through processing of large images.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-65064",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65065",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65066",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65067",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65068",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65069",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65070",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65071",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-65072",
+      "description": "Rejected reason: Not used",
+      "severity": null,
+      "score": null
+    },
+    {
+      "id": "CVE-2025-12494",
+      "description": "The Image Gallery \u2013 Photo Grid & Video Gallery plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the ajax_import_file function in all versions up to, and including, 2.12.28. This makes it possible for authenticated attackers, with author-level access and above, to move arbitrary image files on the server.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-12847",
+      "description": "The All in One SEO \u2013 Powerful SEO Plugin to Boost SEO Rankings & Increase Traffic plugin for WordPress is vulnerable to unauthorized arbitrary media attachment deletion due to a missing authorization check in all versions up to, and including, 4.8.9. This is due to the REST API endpoint `/wp-json/aioseo/v1/ai/image-generator` only verifying that users have the `edit_posts` capability (Contributors and above) without checking if they own or have permission to delete the specific media attachments. This makes it possible for authenticated attackers, with Contributor-level access and above, to permanently delete arbitrary media attachments by ID via the REST API, granted they can determine valid attachment IDs.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-13189",
+      "description": "A vulnerability has been found in D-Link DIR-816L 2_06_b09_beta. This affects the function genacgi_main of the file gena.cgi. The manipulation of the argument SERVER_ID/HTTP_SID leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been disclosed to the public and may be used. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-8994",
+      "description": "The Project Management, Team Collaboration, Kanban Board, Gantt Charts, Task Manager and More \u2013 WP Project Manager plugin for WordPress is vulnerable to time-based SQL Injection via the \u2018completed_at_operator\u2019 parameter in all versions up to, and including, 2.6.26 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers, with Subscriber-level access and above, to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-12849",
+      "description": "The Contest Gallery plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 28.0.2. This is due to the plugin registering the `cg_check_wp_admin_upload_v10` AJAX action for both authenticated and unauthenticated users without implementing capability checks or nonce verification. This makes it possible for unauthenticated attackers to inject arbitrary WordPress media attachments into galleries and manipulate gallery metadata via the `cg_check_wp_admin_upload_v10` action. It does not enable an attacker to move or upload files.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-13190",
+      "description": "A vulnerability was found in D-Link DIR-816L 2_06_b09_beta. This vulnerability affects the function scandir_main of the file /portal/__ajax_exporer.sgi. The manipulation of the argument en results in stack-based buffer overflow. The attack may be performed from remote. The exploit has been made public and could be used. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-13191",
+      "description": "A vulnerability was determined in D-Link DIR-816L 2_06_b09_beta. This issue affects the function soapcgi_main of the file /soap.cgi. This manipulation causes stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been publicly disclosed and may be utilized. This vulnerability only affects products that are no longer supported by the maintainer.",
+      "severity": "HIGH",
+      "score": 8.8
+    },
+    {
+      "id": "CVE-2025-11865",
+      "description": "An issue has been discovered in GitLab EE affecting all versions from 18.1 before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2 that, under certain circumstances, could have allowed an attacker to remove Duo flows of another user.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-11990",
+      "description": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.4 before 18.4.4, and 18.5 before 18.5.2 that could have allowed an authenticated user to gain CSRF tokens by exploiting improper input validation in repository references combined with redirect handling weaknesses.",
+      "severity": "LOW",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2025-2615",
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 16.7  before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2, that could have allowed a blocked user to access sensitive information by establishing GraphQL subscriptions through WebSocket connections.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-6171",
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.2 before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2 that could have allowed an authenticated attacker with reporter access to view branch names and pipeline details by accessing the packages API endpoint even when repository access was disabled.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-6945",
+      "description": "GitLab has remediated an issue in GitLab EE affecting all versions from 17.8 before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2 that could have allowed an authenticated attacker to leak sensitive information from confidential issues by injecting hidden prompts into merge request comments.",
+      "severity": "LOW",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2025-7000",
+      "description": "An issue has been discovered in GitLab CE/EE affecting all versions  from 17.6  before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2, that, under specific conditions, could have allowed unauthorized users to view confidential branch names by accessing project issues with related merge requests.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-7736",
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 17.9 before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2 that could have allowed an authenticated attacker to bypass access control restrictions and view GitLab Pages content intended only for project members by authenticating through OAuth providers.",
+      "severity": "LOW",
+      "score": 3.1
+    },
+    {
+      "id": "CVE-2025-12983",
+      "description": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 16.9 before 18.3.6, 18.4 before 18.4.4, and 18.5 before 18.5.2 that could have allowed an authenticated attacker to cause a denial of service condition by submitting specially crafted markdown content with nested formatting patterns.",
+      "severity": "LOW",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2025-13198",
+      "description": "A vulnerability has been found in DouPHP up to 1.8 Release 20251022. This impacts an unknown function of the file upload/include/file.class.php. The manipulation of the argument File leads to unrestricted upload. Remote exploitation of the attack is possible. The exploit has been disclosed to the public and may be used.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-13199",
+      "description": "A vulnerability was found in code-projects Email Logging Interface 2.0. Affected is an unknown function of the file signup.cpp. The manipulation of the argument Username results in path traversal: '../filedir'. The attack is only possible with local access. The exploit has been made public and could be used.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-13200",
+      "description": "A vulnerability was determined in SourceCodester Farm Management System 1.0. Affected by this vulnerability is an unknown functionality. This manipulation causes exposure of information through directory listing. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-13201",
+      "description": "A vulnerability was identified in code-projects Simple Cafe Ordering System 1.0. Affected by this issue is some unknown functionality of the file /login.php. Such manipulation of the argument Username leads to sql injection. The attack may be performed from remote. The exploit is publicly available and might be used.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-13202",
+      "description": "A security flaw has been discovered in code-projects Simple Cafe Ordering System 1.0. This affects an unknown part of the file /add_to_cart. Performing manipulation of the argument product_name results in cross site scripting. It is possible to initiate the attack remotely. The exploit has been released to the public and may be exploited.",
+      "severity": "LOW",
+      "score": 3.5
+    },
+    {
+      "id": "CVE-2025-13203",
+      "description": "A weakness has been identified in code-projects Simple Cafe Ordering System 1.0. This vulnerability affects unknown code of the file /addmem.php. Executing manipulation of the argument studentnum can lead to sql injection. It is possible to launch the attack remotely. The exploit has been made available to the public and could be exploited.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-13208",
+      "description": "A security flaw has been discovered in FantasticLBP Hotels Server up to 67b44df162fab26df209bd5d5d542875fcbec1d0. The impacted element is an unknown function of the file controller/api/hotelList.php. The manipulation of the argument subjectId/cityName results in sql injection. The attack can be executed remotely. The exploit has been released to the public and may be exploited. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-13209",
+      "description": "A weakness has been identified in bestfeng oa_git_free up to 9.5. This affects the function updateWriteBack of the file yimioa-oa9.5\\server\\c-flow\\src\\main\\java\\com\\cloudweb\\oa\\controller\\WorkflowPredefineController.java. This manipulation of the argument writeProp causes xml external entity reference. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be exploited.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-13210",
+      "description": "A security vulnerability has been detected in itsourcecode Inventory Management System 1.0. This impacts an unknown function of the file /admin/products/index.php?view=add. Such manipulation of the argument PROMODEL leads to sql injection. The attack may be performed from remote. The exploit has been disclosed publicly and may be used.",
+      "severity": "MEDIUM",
+      "score": 4.7
+    },
+    {
+      "id": "CVE-2025-13221",
+      "description": "A weakness has been identified in Intelbras UnniTI 24.07.11. The affected element is an unknown function of the file /xml/sistema/usuarios.xml. Executing manipulation of the argument Usuario/Senha can lead to unprotected storage of credentials. The attack can be executed remotely. The exploit has been made available to the public and could be exploited.",
+      "severity": "MEDIUM",
+      "score": 5.3
+    },
+    {
+      "id": "CVE-2025-2448",
+      "description": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
+      "severity": null,
+      "score": null
+    }
   ]
 }
