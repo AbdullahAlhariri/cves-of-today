@@ -45016,5 +45016,139 @@
       "severity": "LOW",
       "score": 2.0
     }
+  ],
+  "2025-11-30": [
+    {
+      "id": "CVE-2025-13615",
+      "description": "The StreamTube Core plugin for WordPress is vulnerable to Arbitrary User Password Change in versions up to, and including, 4.78. This is due to the plugin providing user-controlled access to objects, letting a user bypass authorization and access system resources. This makes it possible for unauthenticated attackers to change user passwords and potentially take over administrator accounts. Note: This can only be exploited if the 'registration password fields' enabled in theme options.",
+      "severity": "CRITICAL",
+      "score": 9.8
+    },
+    {
+      "id": "CVE-2025-66420",
+      "description": "Tryton sao (aka tryton-sao) before 7.6.9 allows XSS via an HTML attachment. This is fixed in 7.6.9, 7.4.19, 7.0.38, and 6.0.67.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-66421",
+      "description": "Tryton sao (aka tryton-sao) before 7.6.11 allows XSS because it does not escape completion values. This is fixed in 7.6.11, 7.4.21, 7.0.40, and 6.0.69.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-66422",
+      "description": "Tryton trytond before 7.6.11 allows remote attackers to obtain sensitive trace-back (server setup) information. This is fixed in 7.6.11, 7.4.21, 7.0.40, and 6.0.70.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-66423",
+      "description": "Tryton trytond 6.0 before 7.6.11 does not enforce access rights for the route of the HTML editor. This is fixed in 7.6.11, 7.4.21, 7.0.40, and 6.0.70.",
+      "severity": "HIGH",
+      "score": 7.1
+    },
+    {
+      "id": "CVE-2025-66424",
+      "description": "Tryton trytond 6.0 before 7.6.11 does not enforce access rights for data export. This is fixed in 7.6.11, 7.4.21, 7.0.40, and 6.0.70.",
+      "severity": "MEDIUM",
+      "score": 6.5
+    },
+    {
+      "id": "CVE-2025-13782",
+      "description": "A vulnerability was identified in taosir WTCMS up to 01a5f68a3dfc2fdddb44eed967bb2d4f60487665. Affected by this issue is the function delete of the file application/Admin/Controller/SlideController.class.php of the component SlideController. The manipulation of the argument ids leads to sql injection. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-66432",
+      "description": "In Oxide control plane 15 through 17 before 17.1, API tokens can be renewed past their expiration date.",
+      "severity": "MEDIUM",
+      "score": 5.0
+    },
+    {
+      "id": "CVE-2025-66433",
+      "description": "HTCondor Access Point before 25.3.1 allows an authenticated user to impersonate other users on the local machine by submitting a batch job. This is fixed in 24.12.14, 25.0.3, and 25.3.1. The earliest affected version is 24.7.3.",
+      "severity": "MEDIUM",
+      "score": 4.2
+    },
+    {
+      "id": "CVE-2025-13783",
+      "description": "A security flaw has been discovered in taosir WTCMS up to 01a5f68a3dfc2fdddb44eed967bb2d4f60487665. This affects the function check/uncheck/delete of the file application/Comment/Controller/CommentadminController.class.php of the component CommentadminController. The manipulation of the argument ids results in sql injection. The attack can be executed remotely. The exploit has been released to the public and may be exploited. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-13784",
+      "description": "A weakness has been identified in yungifez Skuul School Management System up to 2.6.5. This vulnerability affects unknown code of the file /dashboard/schools/1/edit of the component SVG File Handler. This manipulation causes cross site scripting. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be exploited. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 2.4
+    },
+    {
+      "id": "CVE-2025-13785",
+      "description": "A security vulnerability has been detected in yungifez Skuul School Management System up to 2.6.5. This issue affects some unknown processing of the file /user/profile of the component Image Handler. Such manipulation leads to information disclosure. The attack may be performed from remote. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-13786",
+      "description": "A vulnerability was detected in taosir WTCMS up to 01a5f68a3dfc2fdddb44eed967bb2d4f60487665. Impacted is the function fetch of the file /index.php. Performing manipulation of the argument content results in code injection. It is possible to initiate the attack remotely. The exploit is now public and may be used. This product is using a rolling release to provide continious delivery. Therefore, no version details for affected nor updated releases are available. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-13787",
+      "description": "A flaw has been found in ZenTao up to 21.7.6-8564. The affected element is the function file::delete of the file module/file/control.php of the component File Handler. Executing manipulation of the argument fileID can lead to improper privilege management. It is possible to launch the attack remotely. Upgrading to version 21.7.7 is sufficient to fix this issue. You should upgrade the affected component.",
+      "severity": "MEDIUM",
+      "score": 5.4
+    },
+    {
+      "id": "CVE-2025-13788",
+      "description": "A vulnerability has been found in Chanjet CRM up to 20251106. The impacted element is an unknown function of the file /tools/upgradeattribute.php. The manipulation of the argument gblOrgID leads to sql injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-13789",
+      "description": "A vulnerability was found in ZenTao up to 21.7.6-8564. This affects the function makeRequest of the file module/ai/model.php. The manipulation of the argument Base results in server-side request forgery. The attack can be launched remotely. The exploit has been made public and could be used. Upgrading to version 21.7.6 mitigates this issue. It is suggested to upgrade the affected component.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-13790",
+      "description": "A vulnerability was determined in Scada-LTS up to 2.7.8.1. This impacts an unknown function. This manipulation causes cross-site request forgery. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-13791",
+      "description": "A vulnerability was identified in Scada-LTS up to 2.7.8.1. Affected is the function Common.getHomeDir of the file br/org/scadabr/vo/exporter/ZIPProjectManager.java of the component Project Import. Such manipulation leads to path traversal. The attack may be launched remotely. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 6.3
+    },
+    {
+      "id": "CVE-2025-13792",
+      "description": "A security flaw has been discovered in Qualitor up to 8.20.104/8.24.97. Affected by this vulnerability is the function eval of the file /html/st/stdeslocamento/request/getResumo.php. Performing a manipulation of the argument passageiros results in code injection. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks. Upgrading to version 8.20.105 and 8.24.98 addresses this issue. Upgrading the affected component is advised.",
+      "severity": "HIGH",
+      "score": 7.3
+    },
+    {
+      "id": "CVE-2025-13793",
+      "description": "A weakness has been identified in winston-dsouza Ecommerce-Website up to 87734c043269baac0b4cfe9664784462138b1b2e. Affected by this issue is some unknown functionality of the file /includes/header_menu.php of the component GET Parameter Handler. Executing manipulation of the argument Error can lead to cross site scripting. The attack can be executed remotely. The exploit has been made available to the public and could be exploited. This product implements a rolling release for ongoing delivery, which means version information for affected or updated releases is unavailable. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "MEDIUM",
+      "score": 4.3
+    },
+    {
+      "id": "CVE-2025-35028",
+      "description": "By providing a command-line argument starting with a semi-colon ; to an API endpoint created by the EnhancedCommandExecutor class of the HexStrike AI MCP server, the resultant composed command is executed directly in the context of the MCP server\u2019s normal privilege; typically, this is root. There is no attempt to sanitize these arguments in the default configuration of this MCP server at the affected version (as of commit 2f3a5512 in September of 2025).",
+      "severity": "CRITICAL",
+      "score": 9.1
+    },
+    {
+      "id": "CVE-2025-13795",
+      "description": "A weakness has been identified in codingWithElias School Management System up to f1ac334bfd89ae9067cc14dea12ec6ff3f078c01. Affected is an unknown function of the file /student-view.php of the component Edit Student Info Page. This manipulation of the argument First Name causes cross site scripting. Remote exploitation of the attack is possible. The exploit has been made available to the public and could be exploited. This product follows a rolling release approach for continuous delivery, so version details for affected or updated releases are not provided. Other parameters might be affected as well. The vendor was contacted early about this disclosure but did not respond in any way.",
+      "severity": "LOW",
+      "score": 2.4
+    }
   ]
 }
